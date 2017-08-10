@@ -1,0 +1,25 @@
+12:50:51.224 Xcode[9905:1187378] Beginning test session FizzBuzz_with_TDDTests-5E846A15-6295-4299-A2C3-9A9B3DBD45F2 at 2017-08-10 12:50:51.223 with Xcode 8E2002 on target <DVTiPhoneSimulator: 0x7feea4399e80> {
+		SimDevice: SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3 (14E269) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }
+} (10.3 (14E269))
+12:50:51.224 Xcode[9905:1187378] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+12:50:51.224 Xcode[9905:2239278] Sim iPhone 7 Plus: Unregistering for sim device notification with token 30
+12:50:51.224 Xcode[9905:2239278] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+12:50:51.224 Xcode[9905:2239278] Sim iPhone 7 Plus has testmanagerd socket at /private/tmp/com.apple.launchd.bjZJb5foyB/com.apple.testmanagerd.unix-domain.socket
+12:50:51.224 Xcode[9905:2239278] Validating test connection socket path (/private/tmp/com.apple.launchd.bjZJb5foyB/com.apple.testmanagerd.unix-domain.socket)
+12:50:51.225 Xcode[9905:2239278] Constructing transport for test connection socket
+12:50:51.225 Xcode[9905:2239278] Connected socket 82 to testmanagerd for Sim iPhone 7 Plus
+12:50:51.225 Xcode[9905:2240469] Received connection for test runner session
+12:50:51.225 Xcode[9905:2240469] Listening for proxy connection request from the test bundle
+12:50:51.225 Xcode[9905:2240469] Initiating session with identifier: 5E846A15-6295-4299-A2C3-9A9B3DBD45F2
+12:50:51.253 Xcode[9905:1187378] Received Ready from iOSSimulator
+12:50:51.253 Xcode[9905:1187378] Sending notification: NSConcreteNotification 0x7fee826b8c50 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+12:50:51.253 Xcode[9905:1187378] Received Ready from iOSSimulator
+12:50:51.253 Xcode[9905:1187378] Sending notification: NSConcreteNotification 0x7feea779be20 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+12:50:51.285 Xcode[9905:1187378] Test runner session acquired connection.
+12:50:51.285 Xcode[9905:1187378] Waiting for test process to launch.
+12:50:56.314 Xcode[9905:1187378] Test operation failure: Test operation was canceled.
+12:50:56.314 Xcode[9905:1187378] _finishWithError:Error Domain=IDETestOperationsObserverErrorDomain Code=4 "Test operation was canceled." UserInfo={NSLocalizedDescription=Test operation was canceled.} didCancel: 1

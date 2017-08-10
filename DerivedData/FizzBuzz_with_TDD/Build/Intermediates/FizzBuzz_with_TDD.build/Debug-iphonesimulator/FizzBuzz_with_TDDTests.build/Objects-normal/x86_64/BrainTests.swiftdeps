@@ -1,0 +1,253 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BrainTests"
+provides-nominal:
+- "C22FizzBuzz_with_TDDTests10BrainTests"
+provides-member:
+- ["C22FizzBuzz_with_TDDTests10BrainTests", ""]
+provides-dynamic-lookup:
+- "setUp"
+- "tearDown"
+- "testIsDivisibleByFifteen"
+- "testIsDivisibleByFive"
+- "testIsDivisibleByThree"
+- "testIsNotDivisableByFifteen"
+- "testIsNotDivisibleByFive"
+- "testIsNotDivisibleByThree"
+- "testSayFizz"
+depends-top-level:
+- !private "BooleanLiteralType"
+- "Brain"
+- "BrainTests"
+- !private "Fizz"
+- !private "StringLiteralType"
+- !private "XCTAssertEqual"
+- "XCTestCase"
+depends-member:
+- ["Ps9AnyObject", "Brain"]
+- !private ["Ps9AnyObject", "Fizz"]
+- !private ["Ps9AnyObject", "XCTAssertEqual"]
+- !private ["Ps9AnyObject", "brain"]
+- !private ["Ps9AnyObject", "check"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isDivisibleByFifteen"]
+- !private ["Ps9AnyObject", "isDivisibleByFive"]
+- !private ["Ps9AnyObject", "isDivisibleByThree"]
+- !private ["Ps9AnyObject", "setUp"]
+- !private ["Ps9AnyObject", "tearDown"]
+- ["Ps9AnyObject", ""]
+- !private ["C17FizzBuzz_with_TDD5Brain", "check"]
+- ["C17FizzBuzz_with_TDD5Brain", "init"]
+- !private ["C17FizzBuzz_with_TDD5Brain", "isDivisibleByFifteen"]
+- !private ["C17FizzBuzz_with_TDD5Brain", "isDivisibleByFive"]
+- !private ["C17FizzBuzz_with_TDD5Brain", "isDivisibleByThree"]
+- ["C22FizzBuzz_with_TDDTests10BrainTests", "Brain"]
+- !private ["C22FizzBuzz_with_TDDTests10BrainTests", "Fizz"]
+- !private ["C22FizzBuzz_with_TDDTests10BrainTests", "XCTAssertEqual"]
+- ["C22FizzBuzz_with_TDDTests10BrainTests", "brain"]
+- ["C22FizzBuzz_with_TDDTests10BrainTests", "deinit"]
+- ["C22FizzBuzz_with_TDDTests10BrainTests", "init"]
+- ["C22FizzBuzz_with_TDDTests10BrainTests", "setUp"]
+- ["C22FizzBuzz_with_TDDTests10BrainTests", "tearDown"]
+- ["C22FizzBuzz_with_TDDTests10BrainTests", "testIsDivisibleByFifteen"]
+- ["C22FizzBuzz_with_TDDTests10BrainTests", "testIsDivisibleByFive"]
+- ["C22FizzBuzz_with_TDDTests10BrainTests", "testIsDivisibleByThree"]
+- ["C22FizzBuzz_with_TDDTests10BrainTests", "testIsNotDivisableByFifteen"]
+- ["C22FizzBuzz_with_TDDTests10BrainTests", "testIsNotDivisibleByFive"]
+- ["C22FizzBuzz_with_TDDTests10BrainTests", "testIsNotDivisibleByThree"]
+- ["C22FizzBuzz_with_TDDTests10BrainTests", "testSayFizz"]
+- ["Ps7CVarArg", "Brain"]
+- !private ["Ps7CVarArg", "Fizz"]
+- !private ["Ps7CVarArg", "XCTAssertEqual"]
+- !private ["Ps7CVarArg", "brain"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "setUp"]
+- !private ["Ps7CVarArg", "tearDown"]
+- ["Ps7CVarArg", ""]
+- ["Ps28CustomDebugStringConvertible", "Brain"]
+- !private ["Ps28CustomDebugStringConvertible", "Fizz"]
+- !private ["Ps28CustomDebugStringConvertible", "XCTAssertEqual"]
+- !private ["Ps28CustomDebugStringConvertible", "brain"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "setUp"]
+- !private ["Ps28CustomDebugStringConvertible", "tearDown"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "Brain"]
+- !private ["Ps23CustomStringConvertible", "Fizz"]
+- !private ["Ps23CustomStringConvertible", "XCTAssertEqual"]
+- !private ["Ps23CustomStringConvertible", "brain"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "setUp"]
+- !private ["Ps23CustomStringConvertible", "tearDown"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "Brain"]
+- !private ["Ps9Equatable", "Fizz"]
+- !private ["Ps9Equatable", "XCTAssertEqual"]
+- !private ["Ps9Equatable", "brain"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "setUp"]
+- !private ["Ps9Equatable", "tearDown"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "Brain"]
+- !private ["Ps8Hashable", "Fizz"]
+- !private ["Ps8Hashable", "XCTAssertEqual"]
+- !private ["Ps8Hashable", "brain"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "setUp"]
+- !private ["Ps8Hashable", "tearDown"]
+- ["Ps8Hashable", ""]
+- ["CSo8NSObject", "Brain"]
+- !private ["CSo8NSObject", "Fizz"]
+- !private ["CSo8NSObject", "XCTAssertEqual"]
+- ["CSo8NSObject", "brain"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "setUp"]
+- ["CSo8NSObject", "tearDown"]
+- ["CSo8NSObject", "testIsDivisibleByFifteen"]
+- ["CSo8NSObject", "testIsDivisibleByFive"]
+- ["CSo8NSObject", "testIsDivisibleByThree"]
+- ["CSo8NSObject", "testIsNotDivisableByFifteen"]
+- ["CSo8NSObject", "testIsNotDivisibleByFive"]
+- ["CSo8NSObject", "testIsNotDivisibleByThree"]
+- ["CSo8NSObject", "testSayFizz"]
+- ["PSo16NSObjectProtocol", "Brain"]
+- !private ["PSo16NSObjectProtocol", "Fizz"]
+- !private ["PSo16NSObjectProtocol", "XCTAssertEqual"]
+- !private ["PSo16NSObjectProtocol", "brain"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "setUp"]
+- !private ["PSo16NSObjectProtocol", "tearDown"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Vs12StaticString", "init"]
+- ["PSo17XCTWaiterDelegate", "Brain"]
+- !private ["PSo17XCTWaiterDelegate", "Fizz"]
+- !private ["PSo17XCTWaiterDelegate", "XCTAssertEqual"]
+- !private ["PSo17XCTWaiterDelegate", "brain"]
+- !private ["PSo17XCTWaiterDelegate", "init"]
+- !private ["PSo17XCTWaiterDelegate", "setUp"]
+- !private ["PSo17XCTWaiterDelegate", "tearDown"]
+- ["PSo17XCTWaiterDelegate", ""]
+- ["CSo6XCTest", "Brain"]
+- !private ["CSo6XCTest", "Fizz"]
+- !private ["CSo6XCTest", "XCTAssertEqual"]
+- ["CSo6XCTest", "brain"]
+- ["CSo6XCTest", "init"]
+- ["CSo6XCTest", "setUp"]
+- ["CSo6XCTest", "tearDown"]
+- ["CSo6XCTest", "testIsDivisibleByFifteen"]
+- ["CSo6XCTest", "testIsDivisibleByFive"]
+- ["CSo6XCTest", "testIsDivisibleByThree"]
+- ["CSo6XCTest", "testIsNotDivisableByFifteen"]
+- ["CSo6XCTest", "testIsNotDivisibleByFive"]
+- ["CSo6XCTest", "testIsNotDivisibleByThree"]
+- ["CSo6XCTest", "testSayFizz"]
+- ["CSo10XCTestCase", "Brain"]
+- !private ["CSo10XCTestCase", "Fizz"]
+- !private ["CSo10XCTestCase", "XCTAssertEqual"]
+- ["CSo10XCTestCase", "brain"]
+- ["CSo10XCTestCase", "init"]
+- ["CSo10XCTestCase", "setUp"]
+- ["CSo10XCTestCase", "tearDown"]
+- ["CSo10XCTestCase", "testIsDivisibleByFifteen"]
+- ["CSo10XCTestCase", "testIsDivisibleByFive"]
+- ["CSo10XCTestCase", "testIsDivisibleByThree"]
+- ["CSo10XCTestCase", "testIsNotDivisableByFifteen"]
+- ["CSo10XCTestCase", "testIsNotDivisibleByFive"]
+- ["CSo10XCTestCase", "testIsNotDivisibleByThree"]
+- ["CSo10XCTestCase", "testSayFizz"]
+- ["CSo10XCTestCase", ""]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps9_Hashable", "Brain"]
+- !private ["Ps9_Hashable", "Fizz"]
+- !private ["Ps9_Hashable", "XCTAssertEqual"]
+- !private ["Ps9_Hashable", "brain"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "setUp"]
+- !private ["Ps9_Hashable", "tearDown"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "C17FizzBuzz_with_TDD5Brain"
+- "C22FizzBuzz_with_TDDTests10BrainTests"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Vs12StaticString"
+- "PSo17XCTWaiterDelegate"
+- "CSo6XCTest"
+- "CSo10XCTestCase"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator/FizzBuzz_with_TDD.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestProbe.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIDevice.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUISiriService.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUICoordinate.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuite.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIRemote.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase+AsynchronousTesting.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestLog.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertionsImpl.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIApplication.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTKVOExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTNSPredicateExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTNSNotificationExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTDarwinNotificationExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCaseRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuiteRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypeQueryProvider.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTWaiter.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservationCenter.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObserver.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementAttributes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertions.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestErrors.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIKeyboardKeys.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElement.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCAbstractTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementQuery.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+interface-hash: "0c0a66e38284db2224e91d591f3c1b8e"

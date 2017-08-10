@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FizzBuzz_with_TDDTests</key>
+	<dict>
+		<key>BundleIdentifiersForCrashReportEmphasis</key>
+		<array>
+			<string>com.braaaaap.FizzBuzz-with-TDDTests</string>
+			<string>com.braaaaap.FizzBuzz-with-TDDUITests</string>
+			<string>com.braaaaap.FizzBuzz-with-TDD</string>
+		</array>
+		<key>CommandLineArguments</key>
+		<array/>
+		<key>DependentProductPaths</key>
+		<array>
+			<string>__TESTROOT__/Debug-iphonesimulator/FizzBuzz_with_TDD.app/PlugIns/FizzBuzz_with_TDDTests.xctest</string>
+			<string>__TESTROOT__/Debug-iphonesimulator/FizzBuzz_with_TDD.app</string>
+			<string>__TESTROOT__/Debug-iphonesimulator/FizzBuzz_with_TDDUITests-Runner.app/PlugIns/FizzBuzz_with_TDDUITests.xctest</string>
+		</array>
+		<key>EnvironmentVariables</key>
+		<dict>
+			<key>DYLD_FRAMEWORK_PATH</key>
+			<string>/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator</string>
+			<key>DYLD_LIBRARY_PATH</key>
+			<string>/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator</string>
+			<key>OS_ACTIVITY_DT_MODE</key>
+			<string>YES</string>
+			<key>__XCODE_BUILT_PRODUCTS_DIR_PATHS</key>
+			<string>/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator</string>
+			<key>__XPC_DYLD_FRAMEWORK_PATH</key>
+			<string>/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator</string>
+			<key>__XPC_DYLD_LIBRARY_PATH</key>
+			<string>/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator</string>
+		</dict>
+		<key>IsAppHostedTestBundle</key>
+		<true/>
+		<key>ProductModuleName</key>
+		<string>FizzBuzz_with_TDDTests</string>
+		<key>TestBundlePath</key>
+		<string>__TESTHOST__/PlugIns/FizzBuzz_with_TDDTests.xctest</string>
+		<key>TestHostBundleIdentifier</key>
+		<string>com.braaaaap.FizzBuzz-with-TDD</string>
+		<key>TestHostPath</key>
+		<string>__TESTROOT__/Debug-iphonesimulator/FizzBuzz_with_TDD.app</string>
+		<key>TestingEnvironmentVariables</key>
+		<dict>
+			<key>DYLD_FRAMEWORK_PATH</key>
+			<string>__TESTROOT__/Debug-iphonesimulator:__PLATFORMS__/iPhoneSimulator.platform/Developer/Library/Frameworks:__PLATFORMS__/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks</string>
+			<key>DYLD_INSERT_LIBRARIES</key>
+			<string>__PLATFORMS__/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection</string>
+			<key>DYLD_LIBRARY_PATH</key>
+			<string>__TESTROOT__/Debug-iphonesimulator:__PLATFORMS__/iPhoneSimulator.platform/Developer/Library/Frameworks:__PLATFORMS__/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks</string>
+			<key>XCInjectBundleInto</key>
+			<string>__TESTHOST__/FizzBuzz_with_TDD</string>
+			<key>XCODE_DBG_XPC_EXCLUSIONS</key>
+			<string>com.apple.dt.xctestSymbolicator</string>
+		</dict>
+		<key>ToolchainsSettingValue</key>
+		<array/>
+	</dict>
+	<key>FizzBuzz_with_TDDUITests</key>
+	<dict>
+		<key>BundleIdentifiersForCrashReportEmphasis</key>
+		<array>
+			<string>com.braaaaap.FizzBuzz-with-TDDTests</string>
+			<string>com.braaaaap.FizzBuzz-with-TDDUITests</string>
+			<string>com.braaaaap.FizzBuzz-with-TDD</string>
+		</array>
+		<key>CommandLineArguments</key>
+		<array/>
+		<key>DependentProductPaths</key>
+		<array>
+			<string>__TESTROOT__/Debug-iphonesimulator/FizzBuzz_with_TDD.app/PlugIns/FizzBuzz_with_TDDTests.xctest</string>
+			<string>__TESTROOT__/Debug-iphonesimulator/FizzBuzz_with_TDD.app</string>
+			<string>__TESTROOT__/Debug-iphonesimulator/FizzBuzz_with_TDDUITests-Runner.app/PlugIns/FizzBuzz_with_TDDUITests.xctest</string>
+		</array>
+		<key>EnvironmentVariables</key>
+		<dict>
+			<key>DYLD_FRAMEWORK_PATH</key>
+			<string>/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator</string>
+			<key>DYLD_LIBRARY_PATH</key>
+			<string>/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator</string>
+			<key>OS_ACTIVITY_DT_MODE</key>
+			<string>YES</string>
+			<key>__XCODE_BUILT_PRODUCTS_DIR_PATHS</key>
+			<string>/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator</string>
+			<key>__XPC_DYLD_FRAMEWORK_PATH</key>
+			<string>/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator</string>
+			<key>__XPC_DYLD_LIBRARY_PATH</key>
+			<string>/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator</string>
+		</dict>
+		<key>IsUITestBundle</key>
+		<true/>
+		<key>ProductModuleName</key>
+		<string>FizzBuzz_with_TDDUITests</string>
+		<key>TestBundlePath</key>
+		<string>__TESTHOST__/PlugIns/FizzBuzz_with_TDDUITests.xctest</string>
+		<key>TestHostBundleIdentifier</key>
+		<string>com.apple.test.FizzBuzz_with_TDDUITests-Runner</string>
+		<key>TestHostPath</key>
+		<string>__TESTROOT__/Debug-iphonesimulator/FizzBuzz_with_TDDUITests-Runner.app</string>
+		<key>TestingEnvironmentVariables</key>
+		<dict>
+			<key>DYLD_FRAMEWORK_PATH</key>
+			<string>__TESTROOT__/Debug-iphonesimulator:__PLATFORMS__/iPhoneSimulator.platform/Developer/Library/Frameworks:__PLATFORMS__/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks</string>
+			<key>DYLD_LIBRARY_PATH</key>
+			<string>__TESTROOT__/Debug-iphonesimulator:__PLATFORMS__/iPhoneSimulator.platform/Developer/Library/Frameworks:__PLATFORMS__/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks</string>
+			<key>XCODE_DBG_XPC_EXCLUSIONS</key>
+			<string>com.apple.dt.xctestSymbolicator</string>
+		</dict>
+		<key>ToolchainsSettingValue</key>
+		<array/>
+		<key>UITargetAppPath</key>
+		<string>__TESTROOT__/Debug-iphonesimulator/FizzBuzz_with_TDD.app</string>
+	</dict>
+</dict>
+</plist>

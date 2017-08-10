@@ -1,0 +1,310 @@
+12:52:47.714 Xcode[9905:1187378] Beginning test session FizzBuzz_with_TDDTests-FE6171CD-2650-4512-9C37-6A5DD2874230 at 2017-08-10 12:52:47.714 with Xcode 8E2002 on target <DVTiPhoneSimulator: 0x7feea4399e80> {
+		SimDevice: SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3 (14E269) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }
+} (10.3 (14E269))
+12:52:47.715 Xcode[9905:1187378] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+12:52:47.715 Xcode[9905:2244143] Sim iPhone 7 Plus: Unregistering for sim device notification with token 32
+12:52:47.715 Xcode[9905:2244143] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+12:52:47.715 Xcode[9905:2244143] Sim iPhone 7 Plus has testmanagerd socket at /private/tmp/com.apple.launchd.bjZJb5foyB/com.apple.testmanagerd.unix-domain.socket
+12:52:47.715 Xcode[9905:2244143] Validating test connection socket path (/private/tmp/com.apple.launchd.bjZJb5foyB/com.apple.testmanagerd.unix-domain.socket)
+12:52:47.715 Xcode[9905:2244143] Constructing transport for test connection socket
+12:52:47.715 Xcode[9905:2244143] Connected socket 82 to testmanagerd for Sim iPhone 7 Plus
+12:52:47.716 Xcode[9905:2244143] Received connection for test runner session
+12:52:47.716 Xcode[9905:2244143] Listening for proxy connection request from the test bundle
+12:52:47.716 Xcode[9905:2244143] Initiating session with identifier: FE6171CD-2650-4512-9C37-6A5DD2874230
+12:52:47.720 Xcode[9905:2237759] Got reply to session initiation request with identifier FE6171CD-2650-4512-9C37-6A5DD2874230 (result:error): 22: (null)
+12:52:47.745 Xcode[9905:1187378] Received Ready from iOSSimulator
+12:52:47.745 Xcode[9905:1187378] Sending notification: NSConcreteNotification 0x7fee823ccd60 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+12:52:47.745 Xcode[9905:1187378] Received Ready from iOSSimulator
+12:52:47.745 Xcode[9905:1187378] Sending notification: NSConcreteNotification 0x7fee823e95d0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+12:52:47.777 Xcode[9905:1187378] Test runner session acquired connection.
+12:52:47.777 Xcode[9905:1187378] Waiting for test process to launch.
+12:52:52.698 Xcode[9905:1187378] Launch session started.
+12:52:52.721 Xcode[9905:1187378] Received Ready from iOSSimulator
+12:52:52.721 Xcode[9905:1187378] Sending notification: NSConcreteNotification 0x7feea861d5d0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+12:52:52.723 Xcode[9905:1187378] Adding console adaptor <IDEConsoleAdaptor: 0x7fee838c29a0 'target'> for test session FE6171CD-2650-4512-9C37-6A5DD2874230.
+12:52:52.727 Xcode[9905:2244360] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Registered for sim device notification, got token 34
+12:52:52.729 Xcode[9905:1187378] Received Ready from iOSSimulator
+12:52:52.729 Xcode[9905:1187378] Sending notification: NSConcreteNotification 0x7fee82626880 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+12:52:52.729 Xcode[9905:2244480] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Unregistering for sim device notification with token 34
+12:52:52.730 Xcode[9905:2244480] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Installing app at path: /Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator/FizzBuzz_with_TDD.app and options: {
+    CFBundleIdentifier = "com.braaaaap.FizzBuzz-with-TDD";
+}
+12:52:58.438 Xcode[9905:2244480] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Installed app at path: /Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator/FizzBuzz_with_TDD.app and options: {
+    CFBundleIdentifier = "com.braaaaap.FizzBuzz-with-TDD";
+}
+12:52:58.450 Xcode[9905:1187378] Received Ready from iOSSimulator
+12:52:58.450 Xcode[9905:1187378] Sending notification: NSConcreteNotification 0x7fee825b9820 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+12:52:58.450 Xcode[9905:2244480] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Registered for sim device notification, got token 35
+12:52:58.451 Xcode[9905:2244486] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Unregistering for sim device notification with token 35
+12:52:59.261 Xcode[9905:2244480] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Launching app with identifier: com.braaaaap.FizzBuzz-with-TDD and options: {
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DYLD_FRAMEWORK_PATH" = "/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator:/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/Developer/Library/PrivateFrameworks/DTDDISupport.framework/libViewDebuggerSupport.dylib:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection";
+        "DYLD_LIBRARY_PATH" = "/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator:/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        XCInjectBundleInto = "/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator/FizzBuzz_with_TDD.app/FizzBuzz_with_TDD";
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/var/folders/2z/5tlnk44n39v1k1xknyrz6z0r0000gn/T/com.apple.dt.XCTest/FE6171CD-2650-4512-9C37-6A5DD2874230/remote-container/tmp/FizzBuzz_with_TDDTests-FE6171CD-2650-4512-9C37-6A5DD2874230.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator";
+    };
+    stderr = "/dev/ttys004";
+    stdout = "/dev/ttys004";
+    "wait_for_debugger" = 1;
+}
+12:52:59.363 Xcode[9905:2244486] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Launched app with identifier: com.braaaaap.FizzBuzz-with-TDD (pid = 20585)
+12:52:59.363 Xcode[9905:2244486] Tracking pid 20585 for simulator <DVTiPhoneSimulator: 0x7feea4399e80> {
+		SimDevice: SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3 (14E269) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }
+}
+12:52:59.363 Xcode[9905:2244486] Checking to see if pid 20585 is valid: kill(pid, 0) = 0 (YES, it's still running)
+12:52:59.363 Xcode[9905:2244486] Setting up DVTTaskNotifyOnProcDeath for pid 20585
+12:52:59.364 Xcode[9905:1187378] Test process runnable PID is 20585.
+12:53:03.849 Xcode[9905:1187378] Waiting for test process to check in..., will wait up to 120s
+12:53:06.057 Xcode[9905:2244360] Handling proxy channel request from test runner
+12:53:06.057 Xcode[9905:2244360] Test runner is ready, running protocol 22, requires at least version 8. Control framework is running 22 and requires at least 8
+12:53:06.058 Xcode[9905:1187378] Test runner session successfully initiated.
+12:53:06.058 Xcode[9905:1187378] Creating the daemon control session.
+12:53:06.059 Xcode[9905:1187378] Whitelisting test process ID 20585
+12:53:06.059 Xcode[9905:1187378] Got authorization request for pid 20585
+12:53:06.061 Xcode[9905:2244360] Requesting authorization for pid 20585
+12:53:06.063 Xcode[9905:2245478] Got reply to authorization request for pid 20585 (result:error): 22: (null)
+12:53:06.064 Xcode[9905:1187378] Got whitelisting response from test daemon. Success: 1
+12:50:56.857 testmanagerd[20234:2242159] Launched testmanagerd from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/libexec/testmanagerd, modified on Wednesday, April 12, 2017 at 7:44:17 PM British Summer Time
+12:50:56.873 testmanagerd[20234:2242454] IDE connected over socket 5 (-[XCTestManagerIDEServer listenForControlConnectionsOverNamedSocket]_block_invoke)
+12:50:56.874 testmanagerd[20234:2242454] Created session with socket 5
+12:50:56.874 testmanagerd[20234:2242159] Setting availability state.
+12:50:56.875 testmanagerd[20234:2242159] Posting availability to test bundles...
+12:50:56.905 testmanagerd[20234:2242454] IDE connected over socket 7 (-[XCTestManagerIDEServer listenForControlConnectionsOverNamedSocket]_block_invoke)
+12:50:56.906 testmanagerd[20234:2242454] Created session with socket 7
+12:50:56.905 testmanagerd[20234:2242464] DTXSocketTransport disconnected, owner is <XCIDESession: 0x7f83b5e08f80> created Thursday, August 10, 2017 at 12:50:56 PM British Summer Time
+12:53:06.065 testmanagerd[20234:2242159] Received request to collect crash reports in directories '/Users/Ross/Library/Logs/DiagnosticReports', '/Library/Logs/DiagnosticReports' for processes with names 'XCTRunner', 'FizzBuzz_with_TDD', 'xctest'
+12:50:56.907 testmanagerd[20234:2242464] -[XCTDaemon closeIDESession:]_block_invoke <XCIDESession: 0x7f83b5e08f80> created Thursday, August 10, 2017 at 12:50:56 PM British Summer Time
+12:50:56.908 testmanagerd[20234:2242464] Considering exiting:
+12:50:56.909 testmanagerd[20234:2242465] Handled a proxy request from the IDE with session <XCIDESession: 0x7f83b5e1dff0> created Thursday, August 10, 2017 at 12:50:56 PM British Summer Time proxy <_DTXProxy: 0x7f83b5d119c0>
+12:50:56.907 testmanagerd[20234:2242462] DTXSocketTransport disconnected, owner is <XCIDESession: 0x7f83b5e1dff0> created Thursday, August 10, 2017 at 12:50:56 PM British Summer Time
+12:50:56.910 testmanagerd[20234:2242464] Session summary: 0 test sessions, 0 sessions with identifiers, 1 unidentified sessions, does not have control session
+12:50:56.909 testmanagerd[20234:2242461] Handled a proxy request from the IDE with session <XCIDESession: 0x7f83b5e08f80> created Thursday, August 10, 2017 at 12:50:56 PM British Summer Time proxy <_DTXProxy: 0x7f83b5c08080>
+12:50:56.911 testmanagerd[20234:2242159] -[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke 1C1DE0B1-BF33-4A79-B8D2-020798A7D70F 1 7 from client 277BF6ED-E130-4F0D-95F8-FB08A7BD789B-9905-0000C7C39B8FF50D (/Applications/Xcode.app)
+12:50:56.911 testmanagerd[20234:2242159] -[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke 5E846A15-6295-4299-A2C3-9A9B3DBD45F2 1 5 from client 277BF6ED-E130-4F0D-95F8-FB08A7BD789B-9905-0000C7C39B8FF50D (/Applications/Xcode.app)
+12:50:56.911 testmanagerd[20234:2242464] Unidentified IDE sessions: (
+    "<XCIDESession: 0x7f83b5e1dff0> created Thursday, August 10, 2017 at 12:50:56 PM British Summer Time for client 277BF6ED-E130-4F0D-95F8-FB08A7BD789B-9905-0000C7C39B8FF50D waiting to pair with test session 1C1DE0B1-BF33-4A79-B8D2-020798A7D70F"
+)
+12:50:56.912 testmanagerd[20234:2242464] -[XCTDaemon closeIDESession:]_block_invoke <XCIDESession: 0x7f83b5e1dff0> created Thursday, August 10, 2017 at 12:50:56 PM British Summer Time for client 277BF6ED-E130-4F0D-95F8-FB08A7BD789B-9905-0000C7C39B8FF50D waiting to pair with test session 1C1DE0B1-BF33-4A79-B8D2-020798A7D70F
+12:50:56.913 testmanagerd[20234:2242464] -[XCTDaemon setIDESession:forIdentifier:]_block_invoke <XCIDESession: 0x7f83b5e1dff0> created Thursday, August 10, 2017 at 12:50:56 PM British Summer Time for client 277BF6ED-E130-4F0D-95F8-FB08A7BD789B-9905-0000C7C39B8FF50D waiting to pair with test session 1C1DE0B1-BF33-4A79-B8D2-020798A7D70F -> 1C1DE0B1-BF33-4A79-B8D2-020798A7D70F
+12:50:56.913 testmanagerd[20234:2242464] -[XCTDaemon _queue_handleRequestForSessionWithIdentifier:]
+12:50:56.913 testmanagerd[20234:2242464] -[XCTDaemon setIDESession:forIdentifier:]_block_invoke <XCIDESession: 0x7f83b5e08f80> created Thursday, August 10, 2017 at 12:50:56 PM British Summer Time for client 277BF6ED-E130-4F0D-95F8-FB08A7BD789B-9905-0000C7C39B8FF50D waiting to pair with test session 5E846A15-6295-4299-A2C3-9A9B3DBD45F2 -> 5E846A15-6295-4299-A2C3-9A9B3DBD45F2
+12:50:56.914 testmanagerd[20234:2242464] -[XCTDaemon _queue_handleRequestForSessionWithIdentifier:]
+12:50:56.914 testmanagerd[20234:2242464] Considering exiting:
+12:50:56.914 testmanagerd[20234:2242464] Session summary: 0 test sessions, 2 sessions with identifiers, 0 unidentified sessions, does not have control session
+12:50:56.915 testmanagerd[20234:2242464] Unpaired test sessions: {
+    "1C1DE0B1-BF33-4A79-B8D2-020798A7D70F" = "<XCIDESession: 0x7f83b5e1dff0> created Thursday, August 10, 2017 at 12:50:56 PM British Summer Time for client 277BF6ED-E130-4F0D-95F8-FB08A7BD789B-9905-0000C7C39B8FF50D waiting to pair with test session 1C1DE0B1-BF33-4A79-B8D2-020798A7D70F";
+    "5E846A15-6295-4299-A2C3-9A9B3DBD45F2" = "<XCIDESession: 0x7f83b5e08f80> created Thursday, August 10, 2017 at 12:50:56 PM British Summer Time for client 277BF6ED-E130-4F0D-95F8-FB08A7BD789B-9905-0000C7C39B8FF50D waiting to pair with test session 5E846A15-6295-4299-A2C3-9A9B3DBD45F2";
+}
+12:51:01.876 testmanagerd[20234:2242465] Considering exiting:
+12:51:01.877 testmanagerd[20234:2242465] Session summary: 0 test sessions, 2 sessions with identifiers, 0 unidentified sessions, does not have control session
+12:51:01.877 testmanagerd[20234:2242465] Unpaired test sessions: {
+    "1C1DE0B1-BF33-4A79-B8D2-020798A7D70F" = "<XCIDESession: 0x7f83b5e1dff0> created Thursday, August 10, 2017 at 12:50:56 PM British Summer Time for client 277BF6ED-E130-4F0D-95F8-FB08A7BD789B-9905-0000C7C39B8FF50D waiting to pair with test session 1C1DE0B1-BF33-4A79-B8D2-020798A7D70F";
+    "5E846A15-6295-4299-A2C3-9A9B3DBD45F2" = "<XCIDESession: 0x7f83b5e08f80> created Thursday, August 10, 2017 at 12:50:56 PM British Summer Time for client 277BF6ED-E130-4F0D-95F8-FB08A7BD789B-9905-0000C7C39B8FF50D waiting to pair with test session 5E846A15-6295-4299-A2C3-9A9B3DBD45F2";
+}
+12:52:47.716 testmanagerd[20234:2242463] IDE connected over socket 6 (-[XCTestManagerIDEServer listenForControlConnectionsOverNamedSocket]_block_invoke)
+12:52:47.716 testmanagerd[20234:2242463] Created session with socket 6
+12:52:47.718 testmanagerd[20234:2244348] Handled a proxy request from the IDE with session <XCIDESession: 0x7f83b5d13840> created Thursday, August 10, 2017 at 12:52:47 PM British Summer Time proxy <_DTXProxy: 0x7f83b5c0bf90>
+12:52:47.719 testmanagerd[20234:2242159] -[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke FE6171CD-2650-4512-9C37-6A5DD2874230 1 6 from client 277BF6ED-E130-4F0D-95F8-FB08A7BD789B-9905-0000C7C39B8FF50D (/Applications/Xcode.app)
+12:52:47.720 testmanagerd[20234:2244348] -[XCTDaemon setIDESession:forIdentifier:]_block_invoke <XCIDESession: 0x7f83b5d13840> created Thursday, August 10, 2017 at 12:52:47 PM British Summer Time for client 277BF6ED-E130-4F0D-95F8-FB08A7BD789B-9905-0000C7C39B8FF50D waiting to pair with test session FE6171CD-2650-4512-9C37-6A5DD2874230 -> FE6171CD-2650-4512-9C37-6A5DD2874230
+12:52:47.722 testmanagerd[20234:2244348] -[XCTDaemon _queue_handleRequestForSessionWithIdentifier:]
+12:52:47.727 testmanagerd[20234:2244348] IDE connected over socket 9 (-[XCTestManagerIDEServer listenForControlConnectionsOverNamedSocket]_block_invoke)
+12:52:47.728 testmanagerd[20234:2244348] Created session with socket 9
+12:52:47.738 testmanagerd[20234:2244352] Handled a proxy request from the IDE with session <XCIDESession: 0x7f83b5f00cd0> created Thursday, August 10, 2017 at 12:52:47 PM British Summer Time proxy <_DTXProxy: 0x7f83b5c101c0>
+12:52:47.751 testmanagerd[20234:2242159] -[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke 1DDE83E7-C516-4D9F-BA0A-EE73A5A8B57B 1 9 from client 277BF6ED-E130-4F0D-95F8-FB08A7BD789B-9905-0000C7C39B8FF50D (/Applications/Xcode.app)
+12:52:47.752 testmanagerd[20234:2244352] -[XCTDaemon setIDESession:forIdentifier:]_block_invoke <XCIDESession: 0x7f83b5f00cd0> created Thursday, August 10, 2017 at 12:52:47 PM British Summer Time for client 277BF6ED-E130-4F0D-95F8-FB08A7BD789B-9905-0000C7C39B8FF50D waiting to pair with test session 1DDE83E7-C516-4D9F-BA0A-EE73A5A8B57B -> 1DDE83E7-C516-4D9F-BA0A-EE73A5A8B57B
+12:52:47.752 testmanagerd[20234:2244352] -[XCTDaemon _queue_handleRequestForSessionWithIdentifier:]
+12:53:05.910 testmanagerd[20234:2244348] Received new test session connection from process with PID 20585
+12:53:05.933 testmanagerd[20234:2242159] Initial orientation 0
+12:53:05.937 testmanagerd[20234:2245657] Test session FE6171CD-2650-4512-9C37-6A5DD2874230 requested socket (-[XCTestSession _XCT_requestSocketForSessionIdentifier:reply:])
+12:53:05.939 testmanagerd[20234:2245656] Test session FE6171CD-2650-4512-9C37-6A5DD2874230 requested socket (-[XCTDaemon requestSocketForSessionIdentifier:reply:]_block_invoke)
+12:53:05.939 testmanagerd[20234:2245656] -[XCTDaemon _queue_handleRequestForSessionWithIdentifier:]
+12:53:05.939 testmanagerd[20234:2245656] Closing IDE connection before sending socket 11 to test host.
+12:53:05.939 testmanagerd[20234:2245656] -[XCIDESession closeIDEConnection:] sending barrier
+12:53:05.941 testmanagerd[20234:2242159] barrier flushed, closing DTXConnection to IDE, socket will not be closed
+12:53:05.942 testmanagerd[20234:2244348] DTXSocketTransport disconnected, owner is <XCIDESession: 0x7f83b5d13840> created Thursday, August 10, 2017 at 12:52:47 PM British Summer Time for client 277BF6ED-E130-4F0D-95F8-FB08A7BD789B-9905-0000C7C39B8FF50D waiting to pair with test session FE6171CD-2650-4512-9C37-6A5DD2874230
+12:53:05.942 testmanagerd[20234:2244348] -[XCTDaemon closeIDESession:]_block_invoke <XCIDESession: 0x7f83b5d13840> created Thursday, August 10, 2017 at 12:52:47 PM British Summer Time for client 277BF6ED-E130-4F0D-95F8-FB08A7BD789B-9905-0000C7C39B8FF50D waiting to pair with test session FE6171CD-2650-4512-9C37-6A5DD2874230
+12:53:05.943 testmanagerd[20234:2244348] Considering exiting:
+12:53:05.943 testmanagerd[20234:2244348] Session summary: 1 test sessions, 3 sessions with identifiers, 0 unidentified sessions, does not have control session
+12:53:05.944 testmanagerd[20234:2244348] Unpaired test sessions: {
+    "5E846A15-6295-4299-A2C3-9A9B3DBD45F2" = "<XCIDESession: 0x7f83b5e08f80> created Thursday, August 10, 2017 at 12:50:56 PM British Summer Time for client 277BF6ED-E130-4F0D-95F8-FB08A7BD789B-9905-0000C7C39B8FF50D waiting to pair with test session 5E846A15-6295-4299-A2C3-9A9B3DBD45F2";
+    "1DDE83E7-C516-4D9F-BA0A-EE73A5A8B57B" = "<XCIDESession: 0x7f83b5f00cd0> created Thursday, August 10, 2017 at 12:52:47 PM British Summer Time for client 277BF6ED-E130-4F0D-95F8-FB08A7BD789B-9905-0000C7C39B8FF50D waiting to pair with test session 1DDE83E7-C516-4D9F-BA0A-EE73A5A8B57B";
+    "1C1DE0B1-BF33-4A79-B8D2-020798A7D70F" = "<XCIDESession: 0x7f83b5e1dff0> created Thursday, August 10, 2017 at 12:50:56 PM British Summer Time for client 277BF6ED-E130-4F0D-95F8-FB08A7BD789B-9905-0000C7C39B8FF50D waiting to pair with test session 1C1DE0B1-BF33-4A79-B8D2-020798A7D70F";
+}
+12:53:05.939 testmanagerd[20234:2245657] app info {
+    BKSApplicationStateAppIsFrontmost = 1;
+    BKSApplicationStateExtensionKey = 0;
+    SBApplicationStateDisplayIDKey = "com.braaaaap.FizzBuzz-with-TDD";
+    SBApplicationStateKey = 8;
+    SBApplicationStateProcessIDKey = 20585;
+    SBMostElevatedStateForProcessID = 8;
+}
+12:53:05.947 testmanagerd[20234:2245657] Got request for process assertion for pid 20585.
+12:53:05.959 testmanagerd[20234:2245657] Created process assertion for pid 20585: <BKSProcessAssertion: 0x7f83b5c15ef0>, waiting for response from assertiond.
+12:53:05.960 testmanagerd[20234:2245654] Got reply for process assertion request, success: YES
+12:53:05.960 testmanagerd[20234:2245657] Starting to monitor com.braaaaap.FizzBuzz-with-TDD
+12:53:05.962 testmanagerd[20234:2245656] Got application state update: com.braaaaap.FizzBuzz-with-TDD (20585) -> 8
+12:53:06.051 testmanagerd[20234:2242159] Sending socket 11 to test host
+12:53:06.052 testmanagerd[20234:2245657] -[XCTDaemon closeIDESession:]_block_invoke <XCIDESession: 0x7f83b5d13840> created Thursday, August 10, 2017 at 12:52:47 PM British Summer Time for client 277BF6ED-E130-4F0D-95F8-FB08A7BD789B-9905-0000C7C39B8FF50D waiting to pair with test session FE6171CD-2650-4512-9C37-6A5DD2874230
+12:53:06.052 testmanagerd[20234:2245657] Considering exiting:
+12:53:06.053 testmanagerd[20234:2245657] Session summary: 1 test sessions, 3 sessions with identifiers, 0 unidentified sessions, does not have control session
+12:53:06.053 testmanagerd[20234:2245657] Unpaired test sessions: {
+    "5E846A15-6295-4299-A2C3-9A9B3DBD45F2" = "<XCIDESession: 0x7f83b5e08f80> created Thursday, August 10, 2017 at 12:50:56 PM British Summer Time for client 277BF6ED-E130-4F0D-95F8-FB08A7BD789B-9905-0000C7C39B8FF50D waiting to pair with test session 5E846A15-6295-4299-A2C3-9A9B3DBD45F2";
+    "1DDE83E7-C516-4D9F-BA0A-EE73A5A8B57B" = "<XCIDESession: 0x7f83b5f00cd0> created Thursday, August 10, 2017 at 12:52:47 PM British Summer Time for client 277BF6ED-E130-4F0D-95F8-FB08A7BD789B-9905-0000C7C39B8FF50D waiting to pair with test session 1DDE83E7-C516-4D9F-BA0A-EE73A5A8B57B";
+    "1C1DE0B1-BF33-4A79-B8D2-020798A7D70F" = "<XCIDESession: 0x7f83b5e1dff0> created Thursday, August 10, 2017 at 12:50:56 PM British Summer Time for client 277BF6ED-E130-4F0D-95F8-FB08A7BD789B-9905-0000C7C39B8FF50D waiting to pair with test session 1C1DE0B1-BF33-4A79-B8D2-020798A7D70F";
+}
+12:53:06.060 testmanagerd[20234:2245657] IDE connected over socket 8 (-[XCTestManagerIDEServer listenForControlConnectionsOverNamedSocket]_block_invoke)
+12:53:06.060 testmanagerd[20234:2245657] Created session with socket 8
+12:53:06.062 testmanagerd[20234:2245658] Handled a proxy request from the IDE with session <XCIDESession: 0x7f83b5c15c70> created Thursday, August 10, 2017 at 12:53:06 PM British Summer Time proxy <_DTXProxy: 0x7f83b5c0f2a0>
+12:53:06.062 testmanagerd[20234:2245658] -[XCIDESession _IDE_initiateControlSessionForTestProcessID:protocolVersion:] 20585 22
+12:53:06.063 testmanagerd[20234:2242159] Set control session <XCIDESession: 0x7f83b5c15c70> created Thursday, August 10, 2017 at 12:53:06 PM British Summer Time with proto 22 and proxy <_DTXProxy: 0x7f83b5c0f2a0>
+12:53:06.066 testmanagerd[20234:2242159] Initializing crash report observer for /Users/Ross/Library/Logs/DiagnosticReports
+12:53:06.091 testmanagerd[20234:2242159] Getting files in /Users/Ross/Library/Logs/DiagnosticReports
+12:53:06.122 testmanagerd[20234:2242159] Found 24 files in /Users/Ross/Library/Logs/DiagnosticReports
+12:53:06.123 testmanagerd[20234:2242159] Started monitoring /Users/Ross/Library/Logs/DiagnosticReports
+12:53:06.125 testmanagerd[20234:2242159] Initializing crash report observer for /Library/Logs/DiagnosticReports
+12:53:06.125 testmanagerd[20234:2242159] Getting files in /Library/Logs/DiagnosticReports
+12:53:06.153 testmanagerd[20234:2242159] Found 44 files in /Library/Logs/DiagnosticReports
+12:53:06.155 testmanagerd[20234:2242159] Started monitoring /Library/Logs/DiagnosticReports
+12:53:05.844 FizzBuzz_with_TDD[20585:2245493] Linked XCTest.framework from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/XCTest, built with Xcode 0832(), modified on Wednesday, April 12, 2017 at 7:49:43 PM British Summer Time
+12:53:05.844 FizzBuzz_with_TDD[20585:2245493] XCTest.framework bundle version: 12124
+12:53:05.892 FizzBuzz_with_TDD[20585:2245493] System uptime: 2d 13:22:57
+12:53:05.892 FizzBuzz_with_TDD[20585:2245493] Process arguments: (
+    "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Containers/Bundle/Application/BA3CDE70-7CB7-4FC1-A03D-3CE56CBF7E41/FizzBuzz_with_TDD.app/FizzBuzz_with_TDD",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+12:53:05.892 FizzBuzz_with_TDD[20585:2245493] Process environment: {
+    "CFFIXED_USER_HOME" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Containers/Data/Application/9BA093EF-B5F8-4A90-BC8E-00971CF72FD3";
+    CLASSIC = 0;
+    "CUPS_SERVER" = "/private/tmp/com.apple.launchd.ISS1cJhkap/Listeners";
+    "DYLD_FALLBACK_FRAMEWORK_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks";
+    "DYLD_FALLBACK_LIBRARY_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib";
+    "DYLD_FRAMEWORK_PATH" = "/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator:/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+    "DYLD_INSERT_LIBRARIES" = "";
+    "DYLD_LIBRARY_PATH" = "/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator:/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+    "DYLD_ROOT_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "DYLD_SHARED_REGION" = avoid;
+    HOME = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Containers/Data/Application/9BA093EF-B5F8-4A90-BC8E-00971CF72FD3";
+    "IOS_SIMULATOR_SYSLOG_SOCKET" = "/private/tmp/com.apple.CoreSimulator.SimDevice.F27E23E5-56B5-4944-8777-32EE4BAD50CD.launchd_sim/syslogsock";
+    "IPHONE_SHARED_RESOURCES_DIRECTORY" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data";
+    "IPHONE_SIMULATOR_CLASS" = D11;
+    "IPHONE_SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "IPHONE_TVOUT_EXTENDED_PROPERTIES" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Library/Application Support/Simulator/extended_display.plist";
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/local/bin";
+    "SIMULATOR_CAPABILITIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/Profiles/DeviceTypes/iPhone 7 Plus.simdevicetype/Contents/Resources/capabilities.plist";
+    "SIMULATOR_DEVICE_NAME" = "iPhone 7 Plus";
+    "SIMULATOR_EXTENDED_DISPLAY_PROPERTIES" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Library/Application Support/Simulator/extended_display.plist";
+    "SIMULATOR_HID_SYSTEM_MANAGER" = "/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/Resources/Platforms/iphoneos/SimulatorHID.framework";
+    "SIMULATOR_HOST_HOME" = "/Users/Ross";
+    "SIMULATOR_LEGACY_ASSET_SUFFIX" = iphone;
+    "SIMULATOR_LOG_ROOT" = "/Users/Ross/Library/Logs/CoreSimulator/F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+    "SIMULATOR_MAINSCREEN_HEIGHT" = 2208;
+    "SIMULATOR_MAINSCREEN_PITCH" = "461.000000";
+    "SIMULATOR_MAINSCREEN_SCALE" = "3.000000";
+    "SIMULATOR_MAINSCREEN_WIDTH" = 1242;
+    "SIMULATOR_MEMORY_WARNINGS" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/var/run/memory_warning_simulation";
+    "SIMULATOR_MODEL_IDENTIFIER" = "iPhone9,2";
+    "SIMULATOR_PLATFORM_RUNTIME_OVERLAY_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/RuntimeOverlay";
+    "SIMULATOR_PRODUCT_CLASS" = D11;
+    "SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "SIMULATOR_RUNTIME_BUILD_VERSION" = 14E269;
+    "SIMULATOR_RUNTIME_VERSION" = "10.3";
+    "SIMULATOR_SHARED_RESOURCES_DIRECTORY" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data";
+    "SIMULATOR_UDID" = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+    "SIMULATOR_VERSION_INFO" = "CoreSimulator 375.21 - Device: iPhone 7 Plus - Runtime: iOS 10.3 (14E269) - DeviceType: iPhone 7 Plus";
+    "TESTMANAGERD_SIM_SOCK" = "/private/tmp/com.apple.launchd.bjZJb5foyB/com.apple.testmanagerd.unix-domain.socket";
+    TMPDIR = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Containers/Data/Application/9BA093EF-B5F8-4A90-BC8E-00971CF72FD3/tmp";
+    XCInjectBundleInto = "/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator/FizzBuzz_with_TDD.app/FizzBuzz_with_TDD";
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/var/folders/2z/5tlnk44n39v1k1xknyrz6z0r0000gn/T/com.apple.dt.XCTest/FE6171CD-2650-4512-9C37-6A5DD2874230/remote-container/tmp/FizzBuzz_with_TDDTests-FE6171CD-2650-4512-9C37-6A5DD2874230.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:com.braaaaap.FizzBuzz-with-TDD[0x9702][20097]";
+    "XPC_SIMULATOR_LAUNCHD_NAME" = "com.apple.CoreSimulator.SimDevice.F27E23E5-56B5-4944-8777-32EE4BAD50CD.launchd_sim";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator";
+}
+12:53:05.896 FizzBuzz_with_TDD[20585:2245493] <XCTWaiter: 0x600000007f50> entering wait loop for 5.00s
+12:53:05.936 FizzBuzz_with_TDD[20585:2245627] Got daemon protocol version 12
+12:53:05.937 FizzBuzz_with_TDD[20585:2245643] <XCTWaiter: 0x600000007f50>: cancelWaiting
+12:53:05.937 FizzBuzz_with_TDD[20585:2245493] <XCTWaiter: 0x600000007f50> done waiting
+12:53:05.937 FizzBuzz_with_TDD[20585:2245493] <XCTWaiter: 0x600000007f50> cleaning up Exchange protocol versions with daemon
+12:53:05.937 FizzBuzz_with_TDD[20585:2245493] Requesting socket
+12:53:05.937 FizzBuzz_with_TDD[20585:2245493] <XCTWaiter: 0x600000007fd0> entering wait loop for 30.00s
+12:53:06.054 FizzBuzz_with_TDD[20585:2245627] <XCTWaiter: 0x600000007fd0>: cancelWaiting
+12:53:06.054 FizzBuzz_with_TDD[20585:2245493] <XCTWaiter: 0x600000007fd0> done waiting
+12:53:06.054 FizzBuzz_with_TDD[20585:2245493] <XCTWaiter: 0x600000007fd0> cleaning up Socket for IDE session acquired
+12:53:06.054 FizzBuzz_with_TDD[20585:2245493] Creating transport with socket 7
+12:53:06.054 FizzBuzz_with_TDD[20585:2245493] Creating connection with transport <DTXSocketTransport: 0x600000114910>
+12:53:06.056 FizzBuzz_with_TDD[20585:2245493] Creating the proxy channel with connection <DTXConnection 0x6000001f2500 : x1>
+12:53:06.056 FizzBuzz_with_TDD[20585:2245493] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:22 minimumVersion:8
+12:53:06.056 FizzBuzz_with_TDD[20585:2245493] <XCTWaiter: 0x608000008450> entering wait loop for 30.00s
+12:53:06.058 FizzBuzz_with_TDD[20585:2245644] _XCT_testBundleReadyWithProtocolVersion:minimumVersion: reply received
+12:53:06.159 FizzBuzz_with_TDD[20585:2245644] _IDE_startExecutingTestPlanWithProtocolVersion:22
+12:53:06.159 FizzBuzz_with_TDD[20585:2245636] <XCTWaiter: 0x608000008450>: cancelWaiting
+12:53:06.159 FizzBuzz_with_TDD[20585:2245493] <XCTWaiter: 0x608000008450> done waiting
+12:53:06.159 FizzBuzz_with_TDD[20585:2245493] <XCTWaiter: 0x608000008450> cleaning up IDE session ready for test plan
+12:53:06.163 Xcode[9905:1187378] Starting test plan, clearing initialization timeout timer.
+12:53:06.162 FizzBuzz_with_TDD[20585:2245493] Loading test suite...
+12:53:06.238 FizzBuzz_with_TDD[20585:2245493] Finished loading test suite, took 0.076s
+12:53:06.238 FizzBuzz_with_TDD[20585:2245493] -[XCTRunnerIDESession testBundleWillStart:]
+Test Suite 'All tests' started at 2017-08-10 12:53:06.238
+Test Suite 'FizzBuzz_with_TDDTests.xctest' started at 2017-08-10 12:53:06.239
+12:53:06.238 FizzBuzz_with_TDD[20585:2245493] Running suite...
+12:53:06.239 FizzBuzz_with_TDD[20585:2245493] -[XCTRunnerIDESession testSuiteWillStart:]
+12:53:06.241 Xcode[9905:1187378] _XCT_testSuite:All tests didStartAt:2017-08-10 11:53:06 +0000
+12:53:06.248 Xcode[9905:2245478] (LOG ARBITER) Dumping buffered message data; 0 messages.
+12:53:06.239 FizzBuzz_with_TDD[20585:2245493] -[XCTRunnerIDESession testSuiteWillStart:]
+12:53:06.243 Xcode[9905:1187378] _XCT_testSuite:FizzBuzz_with_TDDTests.xctest didStartAt:2017-08-10 11:53:06 +0000
+12:53:06.239 FizzBuzz_with_TDD[20585:2245493] -[XCTRunnerIDESession testSuiteWillStart:]
+12:53:06.243 Xcode[9905:1187378] _XCT_testSuite:BrainTests didStartAt:2017-08-10 11:53:06 +0000
+Test Suite 'BrainTests' started at 2017-08-10 12:53:06.239
+12:53:06.241 FizzBuzz_with_TDD[20585:2245493] -[XCTRunnerIDESession testCaseWillStart:] FizzBuzz_with_TDDTests.BrainTests testisDivisibleByThree
+12:53:06.247 Xcode[9905:1187378] _XCT_testCaseDidStartForTestClass:FizzBuzz_with_TDDTests.BrainTests method:testisDivisibleByThree
+12:53:06.246 FizzBuzz_with_TDD[20585:2245493] -[XCTRunnerIDESession testCaseDidFinish:]
+12:53:06.248 Xcode[9905:1187378] _XCT_testCaseDidFinishForTestClass:FizzBuzz_with_TDDTests.BrainTests method:testisDivisibleByThree withStatus:passed duration:0.005334973335266113
+12:53:06.246 FizzBuzz_with_TDD[20585:2245493] -[XCTRunnerIDESession testSuiteDidFinish:]
+12:53:06.248 Xcode[9905:1187378] _XCT_testSuite:BrainTests didFinishAt:2017-08-10 11:53:06 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:0.005334973335266113 totalDuration:0.006937026977539062
+12:53:06.247 FizzBuzz_with_TDD[20585:2245493] -[XCTRunnerIDESession testSuiteDidFinish:]
+12:53:06.248 Xcode[9905:1187378] _XCT_testSuite:FizzBuzz_with_TDDTests.xctest didFinishAt:2017-08-10 11:53:06 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:0.005334973335266113 totalDuration:0.007660031318664551
+Test Case '-[FizzBuzz_with_TDDTests.BrainTests testisDivisibleByThree]' started.
+Test Case '-[FizzBuzz_with_TDDTests.BrainTests testisDivisibleByThree]' passed (0.005 seconds).
+Test Suite 'BrainTests' passed at 2017-08-10 12:53:06.246.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.005 (0.007) seconds
+Test Suite 'FizzBuzz_with_TDDTests.xctest' passed at 2017-08-10 12:53:06.247.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.005 (0.008) seconds
+12:53:06.247 FizzBuzz_with_TDD[20585:2245493] -[XCTRunnerIDESession testSuiteDidFinish:]
+12:53:06.249 Xcode[9905:1187378] _XCT_testSuite:All tests didFinishAt:2017-08-10 11:53:06 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:0.005334973335266113 totalDuration:0.008969008922576904
+12:53:06.249 Xcode[9905:1187378] -[XCTTestRunnerSession _XCT_didFinishExecutingTestPlan]_block_invoke
+12:53:06.248 FizzBuzz_with_TDD[20585:2245493] Finished running suite.
+12:53:06.248 FizzBuzz_with_TDD[20585:2245493] -[XCTRunnerIDESession testBundleDidFinish:], Flushing connection to IDE...
+12:53:06.248 FizzBuzz_with_TDD[20585:2245493] Calling completion.
+12:53:06.248 FizzBuzz_with_TDD[20585:2245493] <XCTWaiter: 0x6080000085d0> entering wait loop for 15.00s
+12:53:06.347 Xcode[9905:1187378] _finishWithError:(null) didCancel: 0
