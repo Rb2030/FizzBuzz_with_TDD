@@ -14,18 +14,18 @@ provides-dynamic-lookup:
 - "testIsNotDivisableByFifteen"
 - "testIsNotDivisibleByFive"
 - "testIsNotDivisibleByThree"
+- "testSayBuzz"
 - "testSayFizz"
+- "testSayFizzBuzz"
 depends-top-level:
 - !private "BooleanLiteralType"
 - "Brain"
 - "BrainTests"
-- !private "Fizz"
 - !private "StringLiteralType"
 - !private "XCTAssertEqual"
 - "XCTestCase"
 depends-member:
 - ["Ps9AnyObject", "Brain"]
-- !private ["Ps9AnyObject", "Fizz"]
 - !private ["Ps9AnyObject", "XCTAssertEqual"]
 - !private ["Ps9AnyObject", "brain"]
 - !private ["Ps9AnyObject", "check"]
@@ -42,7 +42,6 @@ depends-member:
 - !private ["C17FizzBuzz_with_TDD5Brain", "isDivisibleByFive"]
 - !private ["C17FizzBuzz_with_TDD5Brain", "isDivisibleByThree"]
 - ["C22FizzBuzz_with_TDDTests10BrainTests", "Brain"]
-- !private ["C22FizzBuzz_with_TDDTests10BrainTests", "Fizz"]
 - !private ["C22FizzBuzz_with_TDDTests10BrainTests", "XCTAssertEqual"]
 - ["C22FizzBuzz_with_TDDTests10BrainTests", "brain"]
 - ["C22FizzBuzz_with_TDDTests10BrainTests", "deinit"]
@@ -55,26 +54,27 @@ depends-member:
 - ["C22FizzBuzz_with_TDDTests10BrainTests", "testIsNotDivisableByFifteen"]
 - ["C22FizzBuzz_with_TDDTests10BrainTests", "testIsNotDivisibleByFive"]
 - ["C22FizzBuzz_with_TDDTests10BrainTests", "testIsNotDivisibleByThree"]
+- ["C22FizzBuzz_with_TDDTests10BrainTests", "testSayBuzz"]
 - ["C22FizzBuzz_with_TDDTests10BrainTests", "testSayFizz"]
+- ["C22FizzBuzz_with_TDDTests10BrainTests", "testSayFizzBuzz"]
 - ["Ps7CVarArg", "Brain"]
-- !private ["Ps7CVarArg", "Fizz"]
 - !private ["Ps7CVarArg", "XCTAssertEqual"]
 - !private ["Ps7CVarArg", "brain"]
 - !private ["Ps7CVarArg", "init"]
 - !private ["Ps7CVarArg", "setUp"]
 - !private ["Ps7CVarArg", "tearDown"]
 - ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
 - ["Ps28CustomDebugStringConvertible", "Brain"]
-- !private ["Ps28CustomDebugStringConvertible", "Fizz"]
 - !private ["Ps28CustomDebugStringConvertible", "XCTAssertEqual"]
 - !private ["Ps28CustomDebugStringConvertible", "brain"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "setUp"]
 - !private ["Ps28CustomDebugStringConvertible", "tearDown"]
 - ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
 - !private ["Ps17CustomReflectable", "init"]
 - ["Ps23CustomStringConvertible", "Brain"]
-- !private ["Ps23CustomStringConvertible", "Fizz"]
 - !private ["Ps23CustomStringConvertible", "XCTAssertEqual"]
 - !private ["Ps23CustomStringConvertible", "brain"]
 - !private ["Ps23CustomStringConvertible", "init"]
@@ -82,7 +82,6 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "tearDown"]
 - ["Ps23CustomStringConvertible", ""]
 - ["Ps9Equatable", "Brain"]
-- !private ["Ps9Equatable", "Fizz"]
 - !private ["Ps9Equatable", "XCTAssertEqual"]
 - !private ["Ps9Equatable", "brain"]
 - !private ["Ps9Equatable", "init"]
@@ -93,15 +92,18 @@ depends-member:
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - ["Ps8Hashable", "Brain"]
-- !private ["Ps8Hashable", "Fizz"]
 - !private ["Ps8Hashable", "XCTAssertEqual"]
 - !private ["Ps8Hashable", "brain"]
 - !private ["Ps8Hashable", "init"]
 - !private ["Ps8Hashable", "setUp"]
 - !private ["Ps8Hashable", "tearDown"]
 - ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
 - ["CSo8NSObject", "Brain"]
-- !private ["CSo8NSObject", "Fizz"]
 - !private ["CSo8NSObject", "XCTAssertEqual"]
 - ["CSo8NSObject", "brain"]
 - ["CSo8NSObject", "init"]
@@ -113,18 +115,23 @@ depends-member:
 - ["CSo8NSObject", "testIsNotDivisableByFifteen"]
 - ["CSo8NSObject", "testIsNotDivisibleByFive"]
 - ["CSo8NSObject", "testIsNotDivisibleByThree"]
+- ["CSo8NSObject", "testSayBuzz"]
 - ["CSo8NSObject", "testSayFizz"]
+- ["CSo8NSObject", "testSayFizzBuzz"]
 - ["PSo16NSObjectProtocol", "Brain"]
-- !private ["PSo16NSObjectProtocol", "Fizz"]
 - !private ["PSo16NSObjectProtocol", "XCTAssertEqual"]
 - !private ["PSo16NSObjectProtocol", "brain"]
 - !private ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "setUp"]
 - !private ["PSo16NSObjectProtocol", "tearDown"]
 - ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
 - !private ["Vs12StaticString", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
 - ["PSo17XCTWaiterDelegate", "Brain"]
-- !private ["PSo17XCTWaiterDelegate", "Fizz"]
 - !private ["PSo17XCTWaiterDelegate", "XCTAssertEqual"]
 - !private ["PSo17XCTWaiterDelegate", "brain"]
 - !private ["PSo17XCTWaiterDelegate", "init"]
@@ -132,7 +139,6 @@ depends-member:
 - !private ["PSo17XCTWaiterDelegate", "tearDown"]
 - ["PSo17XCTWaiterDelegate", ""]
 - ["CSo6XCTest", "Brain"]
-- !private ["CSo6XCTest", "Fizz"]
 - !private ["CSo6XCTest", "XCTAssertEqual"]
 - ["CSo6XCTest", "brain"]
 - ["CSo6XCTest", "init"]
@@ -144,9 +150,10 @@ depends-member:
 - ["CSo6XCTest", "testIsNotDivisableByFifteen"]
 - ["CSo6XCTest", "testIsNotDivisibleByFive"]
 - ["CSo6XCTest", "testIsNotDivisibleByThree"]
+- ["CSo6XCTest", "testSayBuzz"]
 - ["CSo6XCTest", "testSayFizz"]
+- ["CSo6XCTest", "testSayFizzBuzz"]
 - ["CSo10XCTestCase", "Brain"]
-- !private ["CSo10XCTestCase", "Fizz"]
 - !private ["CSo10XCTestCase", "XCTAssertEqual"]
 - ["CSo10XCTestCase", "brain"]
 - ["CSo10XCTestCase", "init"]
@@ -158,25 +165,32 @@ depends-member:
 - ["CSo10XCTestCase", "testIsNotDivisableByFifteen"]
 - ["CSo10XCTestCase", "testIsNotDivisibleByFive"]
 - ["CSo10XCTestCase", "testIsNotDivisibleByThree"]
+- ["CSo10XCTestCase", "testSayBuzz"]
 - ["CSo10XCTestCase", "testSayFizz"]
+- ["CSo10XCTestCase", "testSayFizzBuzz"]
 - ["CSo10XCTestCase", ""]
 - !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
 - !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
 - ["Ps9_Hashable", "Brain"]
-- !private ["Ps9_Hashable", "Fizz"]
 - !private ["Ps9_Hashable", "XCTAssertEqual"]
 - !private ["Ps9_Hashable", "brain"]
 - !private ["Ps9_Hashable", "init"]
 - !private ["Ps9_Hashable", "setUp"]
 - !private ["Ps9_Hashable", "tearDown"]
 - ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
 depends-nominal:
 - "Ps9AnyObject"
 - "C17FizzBuzz_with_TDD5Brain"
 - "C22FizzBuzz_with_TDDTests10BrainTests"
 - "Ps7CVarArg"
+- !private "Ps10Comparable"
 - "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
 - !private "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
 - "Ps9Equatable"
@@ -184,16 +198,30 @@ depends-nominal:
 - !private "Ps26ExpressibleByStringLiteral"
 - !private "Ps33ExpressibleByUnicodeScalarLiteral"
 - "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
 - !private "Vs12StaticString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
 - "PSo17XCTWaiterDelegate"
 - "CSo6XCTest"
 - "CSo10XCTestCase"
 - !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
 - !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
 - !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
 - "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
@@ -250,4 +278,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCAbstractTest.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementQuery.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
-interface-hash: "0c0a66e38284db2224e91d591f3c1b8e"
+interface-hash: "7f1223084e57a68f038aac869198aa92"

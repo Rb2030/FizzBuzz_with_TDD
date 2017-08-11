@@ -1,0 +1,497 @@
+17:42:31.755 Xcode[9905:1187378] Beginning test session FizzBuzz_with_TDDUITests-422102BD-088B-40F0-BF48-1784F5D027D9 at 2017-08-11 17:42:31.754 with Xcode 8E2002 on target <DVTiPhoneSimulator: 0x7feea4399e80> {
+		SimDevice: SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3 (14E269) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }
+} (10.3 (14E269))
+17:42:31.755 Xcode[9905:1187378] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+17:42:31.755 Xcode[9905:2666181] Sim iPhone 7 Plus: Unregistering for sim device notification with token 216
+17:42:31.755 Xcode[9905:2666181] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+17:42:31.756 Xcode[9905:2666181] Sim iPhone 7 Plus has testmanagerd socket at /private/tmp/com.apple.launchd.jMBqqL5EQJ/com.apple.testmanagerd.unix-domain.socket
+17:42:31.756 Xcode[9905:2666181] Validating test connection socket path (/private/tmp/com.apple.launchd.jMBqqL5EQJ/com.apple.testmanagerd.unix-domain.socket)
+17:42:31.756 Xcode[9905:2666181] Constructing transport for test connection socket
+17:42:31.756 Xcode[9905:2666181] Connected socket 85 to testmanagerd for Sim iPhone 7 Plus
+17:42:31.756 Xcode[9905:2666181] Received connection for test runner session
+17:42:31.756 Xcode[9905:2666181] Listening for proxy connection request from the test bundle
+17:42:31.757 Xcode[9905:2666181] Initiating session with identifier: 422102BD-088B-40F0-BF48-1784F5D027D9
+17:42:31.770 Xcode[9905:1187378] Received Ready from iOSSimulator
+17:42:31.770 Xcode[9905:1187378] Sending notification: NSConcreteNotification 0x7fee85bbf810 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+17:42:31.770 Xcode[9905:1187378] Received Ready from iOSSimulator
+17:42:31.771 Xcode[9905:1187378] Sending notification: NSConcreteNotification 0x7fee83a7f020 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+17:42:31.821 Xcode[9905:1187378] Test runner session acquired connection.
+17:42:31.821 Xcode[9905:1187378] Waiting for test process to launch.
+17:42:32.642 Xcode[9905:2666182] Got reply to session initiation request with identifier 422102BD-088B-40F0-BF48-1784F5D027D9 (result:error): 22: (null)
+17:42:37.056 Xcode[9905:1187378] Received Ready from iOSSimulator
+17:42:37.056 Xcode[9905:1187378] Sending notification: NSConcreteNotification 0x7feea8746760 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+17:42:37.066 Xcode[9905:2666501] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Registered for sim device notification, got token 217
+17:42:37.066 Xcode[9905:1187378] Received Ready from iOSSimulator
+17:42:37.066 Xcode[9905:1187378] Sending notification: NSConcreteNotification 0x7fee8be3c160 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+17:42:37.067 Xcode[9905:2666546] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Unregistering for sim device notification with token 217
+17:42:37.068 Xcode[9905:2666546] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Installing app at path: /Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator/FizzBuzz_with_TDD.app and options: {
+    CFBundleIdentifier = "com.braaaaap.FizzBuzz-with-TDD";
+}
+17:42:41.773 Xcode[9905:2666546] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Installed app at path: /Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator/FizzBuzz_with_TDD.app and options: {
+    CFBundleIdentifier = "com.braaaaap.FizzBuzz-with-TDD";
+}
+17:42:41.774 Xcode[9905:2666546] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Launching app with identifier: com.braaaaap.FizzBuzz-with-TDD and options: {
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DYLD_FRAMEWORK_PATH" = "/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator:/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/Developer/Library/PrivateFrameworks/DTDDISupport.framework/libViewDebuggerSupport.dylib:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection";
+        "DYLD_LIBRARY_PATH" = "/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator:/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        XCInjectBundleInto = "/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator/FizzBuzz_with_TDD.app/FizzBuzz_with_TDD";
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/var/folders/2z/5tlnk44n39v1k1xknyrz6z0r0000gn/T/com.apple.dt.XCTest/75E20D38-B609-463D-97C5-54FF4D03BC82/remote-container/tmp/FizzBuzz_with_TDDTests-75E20D38-B609-463D-97C5-54FF4D03BC82.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator";
+    };
+    stderr = "/dev/ttys004";
+    stdout = "/dev/ttys004";
+    "wait_for_debugger" = 1;
+}
+17:42:41.811 Xcode[9905:2666182] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Launched app with identifier: com.braaaaap.FizzBuzz-with-TDD (pid = 28413)
+17:42:41.812 Xcode[9905:2666182] Tracking pid 28413 for simulator <DVTiPhoneSimulator: 0x7feea4399e80> {
+		SimDevice: SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3 (14E269) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }
+}
+17:42:41.812 Xcode[9905:2666182] Checking to see if pid 28413 is valid: kill(pid, 0) = 0 (YES, it's still running)
+17:42:41.812 Xcode[9905:2666182] Setting up DVTTaskNotifyOnProcDeath for pid 28413
+17:42:44.906 Xcode[9905:1187378] Got death notice for pid 28413, removing from SimulatorSessionMap
+17:42:45.129 Xcode[9905:1187378] Launch session started.
+17:42:45.142 Xcode[9905:1187378] Adding console adaptor <IDEConsoleAdaptor: 0x7fee85be8ad0 'target'> for test session 422102BD-088B-40F0-BF48-1784F5D027D9.
+17:42:45.142 Xcode[9905:1187378] Received Ready from iOSSimulator
+17:42:45.142 Xcode[9905:1187378] Sending notification: NSConcreteNotification 0x7fee8bcc5650 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+17:42:45.145 Xcode[9905:2666501] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Registered for sim device notification, got token 219
+17:42:45.145 Xcode[9905:2667445] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Unregistering for sim device notification with token 219
+17:42:45.145 Xcode[9905:1187378] Received Ready from iOSSimulator
+17:42:45.146 Xcode[9905:1187378] Sending notification: NSConcreteNotification 0x7fee858c5da0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+17:42:45.147 Xcode[9905:2666768] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Installing app at path: /Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator/FizzBuzz_with_TDDUITests-Runner.app and options: {
+    CFBundleIdentifier = "com.apple.test.FizzBuzz_with_TDDUITests-Runner";
+}
+17:42:49.785 Xcode[9905:2666768] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Installed app at path: /Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator/FizzBuzz_with_TDDUITests-Runner.app and options: {
+    CFBundleIdentifier = "com.apple.test.FizzBuzz_with_TDDUITests-Runner";
+}
+17:42:49.786 Xcode[9905:2666768] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Launching app with identifier: com.apple.test.FizzBuzz_with_TDDUITests-Runner and options: {
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DYLD_FRAMEWORK_PATH" = "/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator:/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/Developer/Library/PrivateFrameworks/DTDDISupport.framework/libViewDebuggerSupport.dylib";
+        "DYLD_LIBRARY_PATH" = "/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator:/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/var/folders/2z/5tlnk44n39v1k1xknyrz6z0r0000gn/T/com.apple.dt.XCTest/422102BD-088B-40F0-BF48-1784F5D027D9/remote-container/tmp/FizzBuzz_with_TDDUITests-422102BD-088B-40F0-BF48-1784F5D027D9.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator";
+    };
+    stderr = "/dev/ttys004";
+    stdout = "/dev/ttys004";
+    "wait_for_debugger" = 1;
+}
+17:42:49.822 Xcode[9905:2666502] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Launched app with identifier: com.apple.test.FizzBuzz_with_TDDUITests-Runner (pid = 28417)
+17:42:49.822 Xcode[9905:2666502] Tracking pid 28417 for simulator <DVTiPhoneSimulator: 0x7feea4399e80> {
+		SimDevice: SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3 (14E269) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }
+}
+17:42:49.822 Xcode[9905:2666502] Checking to see if pid 28417 is valid: kill(pid, 0) = 0 (YES, it's still running)
+17:42:49.822 Xcode[9905:2666502] Setting up DVTTaskNotifyOnProcDeath for pid 28417
+17:42:49.822 Xcode[9905:1187378] Test process runnable PID is 28417.
+17:42:51.543 Xcode[9905:1187378] Waiting for test process to check in..., will wait up to 120s
+17:42:51.855 Xcode[9905:2666768] Handling proxy channel request from test runner
+17:42:51.856 Xcode[9905:2666768] Test runner is ready, running protocol 22, requires at least version 8. Control framework is running 22 and requires at least 8
+17:42:51.856 Xcode[9905:1187378] Test runner session successfully initiated.
+17:42:51.856 Xcode[9905:1187378] Creating the daemon control session.
+17:42:51.856 Xcode[9905:1187378] Whitelisting test process ID 28417
+17:42:51.856 Xcode[9905:1187378] Got authorization request for pid 28417
+17:42:51.857 Xcode[9905:2666182] Requesting authorization for pid 28417
+17:42:51.864 Xcode[9905:2666503] Got reply to authorization request for pid 28417 (result:error): 22: (null)
+17:42:51.864 Xcode[9905:1187378] Got whitelisting response from test daemon. Success: 1
+17:42:51.865 testmanagerd[28161:2666298] Received request to collect crash reports in directories '/Users/Ross/Library/Logs/DiagnosticReports', '/Library/Logs/DiagnosticReports' for processes with names 'FizzBuzz_with_TDDUITests-Runner', 'xctest', 'FizzBuzz_with_TDD', 'XCTRunner'
+17:42:51.865 testmanagerd[28161:2666298] Initializing crash report observer for /Users/Ross/Library/Logs/DiagnosticReports
+17:42:51.866 testmanagerd[28161:2666298] Getting files in /Users/Ross/Library/Logs/DiagnosticReports
+17:42:51.867 testmanagerd[28161:2666298] Found 25 files in /Users/Ross/Library/Logs/DiagnosticReports
+17:42:51.867 testmanagerd[28161:2666298] Started monitoring /Users/Ross/Library/Logs/DiagnosticReports
+17:42:51.868 testmanagerd[28161:2666298] Initializing crash report observer for /Library/Logs/DiagnosticReports
+17:42:51.868 testmanagerd[28161:2666298] Getting files in /Library/Logs/DiagnosticReports
+17:42:51.869 testmanagerd[28161:2666298] Found 44 files in /Library/Logs/DiagnosticReports
+17:42:51.870 testmanagerd[28161:2666298] Started monitoring /Library/Logs/DiagnosticReports
+17:42:51.732 XCTRunner[28417:2667683] Linked XCTest.framework from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/XCTest, built with Xcode 0832(), modified on Wednesday, April 12, 2017 at 7:49:43 PM British Summer Time
+17:42:51.732 XCTRunner[28417:2667683] XCTest.framework bundle version: 12124
+17:42:51.735 XCTRunner[28417:2667683] System uptime: 3d 3:59:14
+17:42:51.735 XCTRunner[28417:2667683] Process arguments: (
+    "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Containers/Bundle/Application/1EBA1FA4-25A1-4301-9592-F2BFA822320C/FizzBuzz_with_TDDUITests-Runner.app/XCTRunner",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+17:42:51.735 XCTRunner[28417:2667683] Process environment: {
+    "CFFIXED_USER_HOME" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Containers/Data/Application/116C5CEC-C95A-4BF4-9CB3-2F2E654AD86F";
+    CLASSIC = 1;
+    "CUPS_SERVER" = "/private/tmp/com.apple.launchd.Mc2mIvqjpo/Listeners";
+    "DYLD_FALLBACK_FRAMEWORK_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks";
+    "DYLD_FALLBACK_LIBRARY_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib";
+    "DYLD_FRAMEWORK_PATH" = "/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator:/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+    "DYLD_LIBRARY_PATH" = "/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator:/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+    "DYLD_ROOT_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "DYLD_SHARED_REGION" = avoid;
+    HOME = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Containers/Data/Application/116C5CEC-C95A-4BF4-9CB3-2F2E654AD86F";
+    "IOS_SIMULATOR_SYSLOG_SOCKET" = "/private/tmp/com.apple.CoreSimulator.SimDevice.F27E23E5-56B5-4944-8777-32EE4BAD50CD.launchd_sim/syslogsock";
+    "IPHONE_SHARED_RESOURCES_DIRECTORY" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data";
+    "IPHONE_SIMULATOR_CLASS" = D11;
+    "IPHONE_SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "IPHONE_TVOUT_EXTENDED_PROPERTIES" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Library/Application Support/Simulator/extended_display.plist";
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/local/bin";
+    "SIMULATOR_CAPABILITIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/Profiles/DeviceTypes/iPhone 7 Plus.simdevicetype/Contents/Resources/capabilities.plist";
+    "SIMULATOR_DEVICE_NAME" = "iPhone 7 Plus";
+    "SIMULATOR_EXTENDED_DISPLAY_PROPERTIES" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Library/Application Support/Simulator/extended_display.plist";
+    "SIMULATOR_HID_SYSTEM_MANAGER" = "/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/Resources/Platforms/iphoneos/SimulatorHID.framework";
+    "SIMULATOR_HOST_HOME" = "/Users/Ross";
+    "SIMULATOR_LEGACY_ASSET_SUFFIX" = iphone;
+    "SIMULATOR_LOG_ROOT" = "/Users/Ross/Library/Logs/CoreSimulator/F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+    "SIMULATOR_MAINSCREEN_HEIGHT" = 2208;
+    "SIMULATOR_MAINSCREEN_PITCH" = "461.000000";
+    "SIMULATOR_MAINSCREEN_SCALE" = "3.000000";
+    "SIMULATOR_MAINSCREEN_WIDTH" = 1242;
+    "SIMULATOR_MEMORY_WARNINGS" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/var/run/memory_warning_simulation";
+    "SIMULATOR_MODEL_IDENTIFIER" = "iPhone9,2";
+    "SIMULATOR_PLATFORM_RUNTIME_OVERLAY_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/RuntimeOverlay";
+    "SIMULATOR_PRODUCT_CLASS" = D11;
+    "SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "SIMULATOR_RUNTIME_BUILD_VERSION" = 14E269;
+    "SIMULATOR_RUNTIME_VERSION" = "10.3";
+    "SIMULATOR_SHARED_RESOURCES_DIRECTORY" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data";
+    "SIMULATOR_UDID" = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+    "SIMULATOR_VERSION_INFO" = "CoreSimulator 375.21 - Device: iPhone 7 Plus - Runtime: iOS 10.3 (14E269) - DeviceType: iPhone 7 Plus";
+    "TESTMANAGERD_SIM_SOCK" = "/private/tmp/com.apple.launchd.jMBqqL5EQJ/com.apple.testmanagerd.unix-domain.socket";
+    TMPDIR = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Containers/Data/Application/116C5CEC-C95A-4BF4-9CB3-2F2E654AD86F/tmp";
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/var/folders/2z/5tlnk44n39v1k1xknyrz6z0r0000gn/T/com.apple.dt.XCTest/422102BD-088B-40F0-BF48-1784F5D027D9/remote-container/tmp/FizzBuzz_with_TDDUITests-422102BD-088B-40F0-BF48-1784F5D027D9.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:com.apple.test.FizzBuzz_with_TDDUITests-Runner[0xa3a9][27306]";
+    "XPC_SIMULATOR_LAUNCHD_NAME" = "com.apple.CoreSimulator.SimDevice.F27E23E5-56B5-4944-8777-32EE4BAD50CD.launchd_sim";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator";
+}
+17:42:51.737 XCTRunner[28417:2667683] <XCTWaiter: 0x608000008320> entering wait loop for 5.00s
+17:42:51.742 XCTRunner[28417:2667740] Got daemon protocol version 12
+17:42:51.742 XCTRunner[28417:2667741] <XCTWaiter: 0x608000008320>: cancelWaiting
+17:42:51.742 XCTRunner[28417:2667683] <XCTWaiter: 0x608000008320> done waiting
+17:42:51.742 XCTRunner[28417:2667683] <XCTWaiter: 0x608000008320> cleaning up Exchange protocol versions with daemon
+17:42:51.742 XCTRunner[28417:2667683] Requesting socket
+17:42:51.742 XCTRunner[28417:2667683] <XCTWaiter: 0x6080000083e0> entering wait loop for 30.00s
+17:42:51.853 XCTRunner[28417:2667740] <XCTWaiter: 0x6080000083e0>: cancelWaiting
+17:42:51.853 XCTRunner[28417:2667683] <XCTWaiter: 0x6080000083e0> done waiting
+17:42:51.854 XCTRunner[28417:2667683] <XCTWaiter: 0x6080000083e0> cleaning up Socket for IDE session acquired
+17:42:51.854 XCTRunner[28417:2667683] Creating transport with socket 7
+17:42:51.854 XCTRunner[28417:2667683] Creating connection with transport <DTXSocketTransport: 0x60800011e570>
+17:42:51.855 XCTRunner[28417:2667683] Creating the proxy channel with connection <DTXConnection 0x6080001fc000 : x1>
+17:42:51.855 XCTRunner[28417:2667683] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:22 minimumVersion:8
+17:42:51.855 XCTRunner[28417:2667683] <XCTWaiter: 0x6000000091d0> entering wait loop for 30.00s
+17:42:51.856 XCTRunner[28417:2667754] _XCT_testBundleReadyWithProtocolVersion:minimumVersion: reply received
+17:42:51.871 XCTRunner[28417:2667743] _IDE_startExecutingTestPlanWithProtocolVersion:22
+17:42:51.871 XCTRunner[28417:2667756] <XCTWaiter: 0x6000000091d0>: cancelWaiting
+17:42:51.871 XCTRunner[28417:2667683] <XCTWaiter: 0x6000000091d0> done waiting
+17:42:51.871 XCTRunner[28417:2667683] <XCTWaiter: 0x6000000091d0> cleaning up IDE session ready for test plan
+17:42:51.874 Xcode[9905:1187378] Starting test plan, clearing initialization timeout timer.
+17:42:51.874 XCTRunner[28417:2667683] Initializing for UI testing.
+17:42:51.874 XCTRunner[28417:2667683] <XCTWaiter: 0x6000000091d0> entering wait loop for 20.00s
+17:42:51.875 testmanagerd[28161:2667760] Performing block with diagnostics...
+17:42:51.876 testmanagerd[28161:2667760] Waiting 15.0s for AX to finish loading...
+17:42:51.878 testmanagerd[28161:2667760] _AXSApplicationAccessibilityEnabled() returned false
+17:42:51.904 testmanagerd[28161:2666298] AX is loaded
+17:42:51.913 testmanagerd[28161:2667760] AXDisableAccessibilityOnTermination() returned 0
+17:42:51.915 testmanagerd[28161:2667760] Created system wide AX element <AXUIElement 0x7fd920f06ca0> {pid=0}
+17:42:51.917 testmanagerd[28161:2667760] Registered for accessibility notification 1021
+17:42:51.918 testmanagerd[28161:2667760] Registered for accessibility notification 1000
+17:42:51.919 testmanagerd[28161:2667760] Registered for accessibility notification 1005
+17:42:51.921 testmanagerd[28161:2667760] Registered for accessibility notification 1001
+17:42:51.922 testmanagerd[28161:2667760] Registered for accessibility notification 1011
+17:42:51.922 testmanagerd[28161:2667760] Registered for accessibility notification 4002
+17:42:51.923 testmanagerd[28161:2667760] Registered for accessibility notification 4000
+17:42:51.924 testmanagerd[28161:2667760] Registered for accessibility notification 4001
+17:42:51.924 testmanagerd[28161:2667760] Registered for accessibility notification 5000
+17:42:51.925 testmanagerd[28161:2667760] Block succeeded, canceling diagnostics.
+17:42:52.031 testmanagerd[28161:2666298] AX Notification 4002
+17:42:52.031 testmanagerd[28161:2666298] Got user testing notification with payload {
+    controllerClass = SBLeafIconViewController;
+    event = ViewDidAppear;
+}
+17:42:52.033 testmanagerd[28161:2666298] AX Notification 4002
+17:42:52.034 testmanagerd[28161:2666298] Got user testing notification with payload {
+    controllerClass = SBLeafIconViewController;
+    event = ViewDidAppear;
+}
+17:42:52.035 testmanagerd[28161:2666298] AX Notification 1000
+17:42:52.035 testmanagerd[28161:2666298] AX Notification 4002
+17:42:52.035 testmanagerd[28161:2666298] Got user testing notification with payload {
+    controllerClass = SBIconController;
+    event = ViewDidDisappear;
+}
+17:42:52.267 XCTRunner[28417:2667769] <XCTWaiter: 0x6000000091d0>: cancelWaiting
+17:42:52.267 XCTRunner[28417:2667683] <XCTWaiter: 0x6000000091d0> done waiting
+17:42:52.267 XCTRunner[28417:2667683] <XCTWaiter: 0x6000000091d0> cleaning up Expect predicate `BLOCKPREDICATE(0x608000245010)` for object BLOCKPREDICATE(0x608000245010)
+17:42:52.267 XCTRunner[28417:2667683] <XCTWaiter: 0x6000000091d0> entering wait loop for 15.00s
+17:42:52.267 testmanagerd[28161:2666390] AXUIElementSetMessagingTimeout(<AXUIElement 0x7fd920f06ca0> {pid=0}, 15) -> 0 
+17:42:52.274 XCTRunner[28417:2667754] <XCTWaiter: 0x6000000091d0>: cancelWaiting
+17:42:52.274 XCTRunner[28417:2667683] <XCTWaiter: 0x6000000091d0> done waiting
+17:42:52.274 XCTRunner[28417:2667683] <XCTWaiter: 0x6000000091d0> cleaning up Expect predicate `BLOCKPREDICATE(0x608000245790)` for object BLOCKPREDICATE(0x608000245790)
+17:42:52.275 XCTRunner[28417:2667683] <XCTWaiter: 0x600000009b90> entering wait loop for 15.00s
+17:42:52.275 testmanagerd[28161:2666390] -[XCTDaemon allowUITestControlForPID:] 28417 vs 28417
+17:42:52.275 testmanagerd[28161:2666390] Registered for AX notification 4002
+17:42:52.276 XCTRunner[28417:2667769] <XCTWaiter: 0x600000009b90>: cancelWaiting
+17:42:52.276 XCTRunner[28417:2667683] <XCTWaiter: 0x600000009b90> done waiting
+17:42:52.276 XCTRunner[28417:2667683] <XCTWaiter: 0x600000009b90> cleaning up Expect predicate `BLOCKPREDICATE(0x6080002468d0)` for object BLOCKPREDICATE(0x6080002468d0)
+17:42:52.276 XCTRunner[28417:2667683] <XCTWaiter: 0x600000009b60> entering wait loop for 15.00s
+17:42:52.276 testmanagerd[28161:2666390] -[XCTDaemon allowUITestControlForPID:] 28417 vs 28417
+17:42:52.277 testmanagerd[28161:2666390] Registered for AX notification 1006
+17:42:52.278 XCTRunner[28417:2667754] <XCTWaiter: 0x600000009b60>: cancelWaiting
+17:42:52.278 XCTRunner[28417:2667683] <XCTWaiter: 0x600000009b60> done waiting
+17:42:52.278 XCTRunner[28417:2667683] <XCTWaiter: 0x600000009b60> cleaning up Expect predicate `BLOCKPREDICATE(0x600000254d00)` for object BLOCKPREDICATE(0x600000254d00)
+17:42:52.278 XCTRunner[28417:2667683] <XCTWaiter: 0x600000009c20> entering wait loop for 15.00s
+17:42:52.278 testmanagerd[28161:2666390] -[XCTDaemon allowUITestControlForPID:] 28417 vs 28417
+17:42:52.279 testmanagerd[28161:2666390] Registered for AX notification 1021
+17:42:52.279 XCTRunner[28417:2667740] <XCTWaiter: 0x600000009c20>: cancelWaiting
+17:42:52.279 XCTRunner[28417:2667683] <XCTWaiter: 0x600000009c20> done waiting
+17:42:52.279 XCTRunner[28417:2667683] <XCTWaiter: 0x600000009c20> cleaning up Expect predicate `BLOCKPREDICATE(0x600000254730)` for object BLOCKPREDICATE(0x600000254730)
+17:42:52.280 XCTRunner[28417:2667683] <XCTWaiter: 0x608000008fc0> entering wait loop for 30.00s
+17:42:52.280 testmanagerd[28161:2666390] Got request for process assertion for pid 28417.
+17:42:52.280 testmanagerd[28161:2666390] Invalidating previous process assertion for pid 28417.
+17:42:52.281 testmanagerd[28161:2666390] Created process assertion for pid 28417: <BKSProcessAssertion: 0x7fd920c123c0>, waiting for response from assertiond.
+17:42:52.281 testmanagerd[28161:2667440] Got reply for process assertion request, success: YES
+17:42:52.282 XCTRunner[28417:2667769] Got reply for background assertion for test process, acquired: YES.
+17:42:52.282 XCTRunner[28417:2667769] <XCTWaiter: 0x608000008fc0>: cancelWaiting
+17:42:52.282 XCTRunner[28417:2667683] <XCTWaiter: 0x608000008fc0> done waiting
+17:42:52.282 XCTRunner[28417:2667683] <XCTWaiter: 0x608000008fc0> cleaning up Expect predicate `BLOCKPREDICATE(0x608000247230)` for object BLOCKPREDICATE(0x608000247230)
+17:42:52.282 XCTRunner[28417:2667683] Registering for UIApplicationDidEnterBackgroundNotification
+17:42:52.282 XCTRunner[28417:2667683] Hitting home button to enter background.
+17:42:52.282 XCTRunner[28417:2667683] <XCTWaiter: 0x608000009040> entering wait loop for 30.00s
+17:42:52.283 testmanagerd[28161:2667762] -[XCTDaemon allowUITestControlForPID:] 28417 vs 28417
+17:42:52.284 testmanagerd[28161:2667762] Performing <XCDeviceEvent:0x7fd920c09030 page 12 usage 64 duration 0.01s
+17:42:52.287 testmanagerd[28161:2666390] Sleeping for 0.005000s before sending up event
+17:42:52.294 testmanagerd[28161:2666390] Waiting for device event confirmation.
+17:42:52.306 testmanagerd[28161:2666298] AX Notification 1021
+17:42:52.307 XCTRunner[28417:2667740] Got AX notification 1021
+17:42:52.307 XCTRunner[28417:2667740] Got kAXPidStatusChangedNotification for 28417: active
+17:42:52.324 XCTRunner[28417:2667683] No application process found matching pid 28417, caching
+17:42:52.322 testmanagerd[28161:2666298] AX Notification 4002
+17:42:52.323 XCTRunner[28417:2667754] Got AX notification 4002
+17:42:52.324 testmanagerd[28161:2666298] Got user testing notification with payload {
+    controllerClass = SBLeafIconViewController;
+    event = ViewDidAppear;
+}
+17:42:52.326 testmanagerd[28161:2666298] AX Notification 1000
+17:42:52.326 testmanagerd[28161:2666298] AX Notification 1000
+17:42:52.329 XCTRunner[28417:2667756] Got AX notification 4002
+17:42:52.327 testmanagerd[28161:2666298] AX Notification 1000
+17:42:52.328 testmanagerd[28161:2666298] AX Notification 4002
+17:42:52.328 testmanagerd[28161:2666298] Got user testing notification with payload {
+    event = ButtonEventsCompleted;
+}
+17:42:52.329 testmanagerd[28161:2666298] Signaling device event confirmed by AX notification.
+17:42:52.330 testmanagerd[28161:2666390] Gesture complete, replying to client.
+17:42:52.330 XCTRunner[28417:2667756] <XCTWaiter: 0x608000009040>: cancelWaiting
+17:42:52.330 testmanagerd[28161:2666298] AX Notification 4002
+17:42:52.330 XCTRunner[28417:2667683] <XCTWaiter: 0x608000009040> done waiting
+17:42:52.331 testmanagerd[28161:2666298] Got user testing notification with payload {
+    controllerClass = SBIconController;
+    event = ViewDidAppear;
+}
+17:42:52.330 XCTRunner[28417:2667683] <XCTWaiter: 0x608000009040> cleaning up Expect predicate `BLOCKPREDICATE(0x608000247b00)` for object BLOCKPREDICATE(0x608000247b00)
+17:42:52.331 XCTRunner[28417:2667683] <XCTWaiter: 0x608000009100> entering wait loop for 30.00s
+17:42:52.331 XCTRunner[28417:2667756] Got AX notification 4002
+17:42:52.559 testmanagerd[28161:2666298] AX Notification 1011
+17:42:52.735 XCTRunner[28417:2667683] Got UIApplicationDidEnterBackgroundNotification
+17:42:52.736 XCTRunner[28417:2667754] <XCTWaiter: 0x608000009100>: cancelWaiting
+17:42:52.749 testmanagerd[28161:2666390] Got application state update: com.apple.test.FizzBuzz_with_TDDUITests-Runner (28417) -> 4
+17:42:52.821 XCTRunner[28417:2667743] Got AX notification 4002
+17:42:52.813 testmanagerd[28161:2666298] AX Notification 4002
+17:42:52.821 testmanagerd[28161:2666298] Got user testing notification with payload {
+    controllerClass = SBAppContainerViewController;
+    event = ViewDidDisappear;
+}
+17:42:52.824 testmanagerd[28161:2666298] AX Notification 1021
+17:42:52.826 XCTRunner[28417:2667754] Got AX notification 1021
+17:42:52.826 XCTRunner[28417:2667754] Got kAXPidStatusChangedNotification for 28417: suspended
+17:42:52.826 testmanagerd[28161:2666298] AX Notification 4002
+17:42:52.827 XCTRunner[28417:2667756] Got AX notification 4002
+17:42:52.827 testmanagerd[28161:2666298] Got user testing notification with payload {
+    controllerClass = SBLeafIconViewController;
+    event = ViewDidAppear;
+}
+17:42:52.849 testmanagerd[28161:2666298] AX Notification 1011
+17:42:52.871 XCTRunner[28417:2667683] <XCTWaiter: 0x608000009100> done waiting
+17:42:52.871 XCTRunner[28417:2667683] <XCTWaiter: 0x608000009100> cleaning up Expect predicate `BLOCKPREDICATE(0x608000247d40)` for object BLOCKPREDICATE(0x608000247d40)
+17:42:52.871 XCTRunner[28417:2667683] Done initializing for UI testing.
+17:42:52.871 XCTRunner[28417:2667683] Loading test suite...
+17:42:52.923 XCTRunner[28417:2667683] Finished loading test suite, took 0.052s
+17:42:52.923 XCTRunner[28417:2667683] -[XCTRunnerIDESession testBundleWillStart:]
+17:42:52.923 XCTRunner[28417:2667683] Running suite...
+17:42:52.924 XCTRunner[28417:2667683] -[XCTRunnerIDESession testSuiteWillStart:]
+17:42:52.925 Xcode[9905:1187378] _XCT_testSuite:All tests didStartAt:2017-08-11 16:42:52 +0000
+17:42:53.025 Xcode[9905:2667445] (LOG ARBITER) Rotating message buffer with 38 messages.
+17:42:55.925 Xcode[9905:2666182] (LOG ARBITER) Rotating message buffer with 184 messages.
+17:42:59.311 Xcode[9905:2666182] (LOG ARBITER) Rotating message buffer with 170 messages.
+17:43:01.489 Xcode[9905:2667837] (LOG ARBITER) Dumping buffered message data; 392 messages.
+17:43:00.013 testmanagerd[28161:2666298] AX Notification 5000
+17:43:00.020 testmanagerd[28161:2666298] AX Notification 1021
+17:43:00.023 XCTRunner[28417:2667743] Got AX notification 1021
+17:43:00.023 XCTRunner[28417:2667743] Got kAXPidStatusChangedNotification for 28424: active
+17:43:00.025 testmanagerd[28161:2666298] AX Notification 1021
+17:43:00.026 XCTRunner[28417:2667740] Got AX notification 1021
+17:43:00.026 XCTRunner[28417:2667740] Got kAXPidStatusChangedNotification for 28424: active
+17:43:00.062 testmanagerd[28161:2667440] 8 retries communicating with AX server
+17:43:00.062 testmanagerd[28161:2667440] Performed AXAction 2043 for pid 28424
+17:43:00.063 testmanagerd[28161:2667440] -[XCTDaemon allowUITestControlForPID:] 28417 vs 28417
+17:43:00.064 testmanagerd[28161:2667440] Got AXElement for <XCAccessibilityElement: 0x7fd920e398d0> Device element: <AXUIElement 0x7fd920e052a0> {pid=28424}
+17:43:00.170 testmanagerd[28161:2666298] AX Notification 4002
+17:43:00.171 XCTRunner[28417:2667740] Got AX notification 4002
+17:43:00.171 testmanagerd[28161:2666298] Got user testing notification with payload {
+    controllerClass = "FizzBuzz_with_TDD.ViewController";
+    event = ViewDidAppear;
+}
+17:43:00.171 testmanagerd[28161:2667440] Performed AXAction 2042 for pid 28424
+17:43:00.175 XCTRunner[28417:2667740] Got AX notification 4002
+17:43:00.175 XCTRunner[28417:2667740] Got animations reply.
+17:43:00.175 XCTRunner[28417:2667740] Animations are not active.
+17:43:00.175 XCTRunner[28417:2667769] <XCUIApplicationProcess: 0x6000002a2b20 com.braaaaap.FizzBuzz-with-TDD (28424)> hasReceivedAnimationsHaveFinished 0 -> 1
+17:43:00.175 XCTRunner[28417:2667769] <XCUIApplicationProcess: 0x6000002a2b20 com.braaaaap.FizzBuzz-with-TDD (28424)> animationsHaveFinished 0 -> 1
+17:43:00.171 testmanagerd[28161:2666298] AX Notification 4002
+17:43:00.176 testmanagerd[28161:2666298] Got user testing notification with payload {
+    event = AnimationsNonActive;
+}
+17:43:00.177 testmanagerd[28161:2666298] AX Notification 4002
+17:43:00.178 XCTRunner[28417:2667769] Got AX notification 4002
+17:43:00.178 XCTRunner[28417:2667769] Got event loop idle reply.
+17:43:00.178 XCTRunner[28417:2667769] Event loop is idle.
+17:43:00.178 XCTRunner[28417:2667789] <XCUIApplicationProcess: 0x6000002a2b20 com.braaaaap.FizzBuzz-with-TDD (28424)> hasReceivedEventLoopHasIdled 0 -> 1
+17:43:00.178 XCTRunner[28417:2667789] <XCUIApplicationProcess: 0x6000002a2b20 com.braaaaap.FizzBuzz-with-TDD (28424)> eventLoopHasIdled 0 -> 1
+17:43:00.178 XCTRunner[28417:2667769] <XCTWaiter: 0x608000009870>: cancelWaiting
+17:43:00.178 XCTRunner[28417:2667683] <XCTWaiter: 0x608000009870> done waiting
+17:43:00.178 XCTRunner[28417:2667683] <XCTWaiter: 0x608000009870> cleaning up Expect predicate `BLOCKPREDICATE(0x60000024e100)` for object BLOCKPREDICATE(0x60000024e100)
+17:43:00.178 XCTRunner[28417:2667683] Waiting on quiescence reply indicators
+17:43:00.178 XCTRunner[28417:2667683] <XCTWaiter: 0x608000009910> entering wait loop for 60.00s
+17:43:00.178 testmanagerd[28161:2666298] Got user testing notification with payload {
+    event = RunLoopIsIdle;
+}
+17:43:00.279 XCTRunner[28417:2667756] <XCTWaiter: 0x608000009910>: cancelWaiting
+17:43:00.279 XCTRunner[28417:2667683] <XCTWaiter: 0x608000009910> done waiting
+17:43:00.279 XCTRunner[28417:2667683] <XCTWaiter: 0x608000009910> cleaning up Expect predicate `BLOCKPREDICATE(0x60000024e220)` for object BLOCKPREDICATE(0x60000024e220)
+17:43:00.279 XCTRunner[28417:2667683] App has quiesced or quiescence timeout has elapsed.
+17:43:00.279 XCTRunner[28417:2667683] -[FizzBuzz_with_TDDUITests testExample] finished activity <XCActivityRecord: 0x6000002a40e0> 2017-08-11 16:42:58 +0000: Wait for app to idle (1.99589s)
+17:43:00.280 Xcode[9905:1187378] -[FizzBuzz_with_TDDUITests.FizzBuzz_with_TDDUITests testExample] did finish activity EB745366-24A8-4E09-BD93-D1E5D881C237:'Wait for app to idle'
+17:43:00.279 XCTRunner[28417:2667683] Delaying 1s to mitigate rdar://problem/29883788 & <rdar://problem/23764033> UI tests failing in sim because splash screen is occluding the elements that the tests are trying to interact with
+17:43:00.448 testmanagerd[28161:2666298] AX Notification 4002
+17:43:00.449 XCTRunner[28417:2667755] Got AX notification 4002
+17:43:00.449 testmanagerd[28161:2666298] Got user testing notification with payload {
+    controllerClass = SBLeafIconViewController;
+    event = ViewDidAppear;
+}
+17:43:00.449 testmanagerd[28161:2666298] AX Notification 4002
+17:43:00.450 XCTRunner[28417:2667755] Got AX notification 4002
+17:43:00.450 testmanagerd[28161:2666298] Got user testing notification with payload {
+    controllerClass = SBLeafIconViewController;
+    event = ViewDidAppear;
+}
+17:43:00.451 testmanagerd[28161:2666298] AX Notification 1000
+17:43:00.452 testmanagerd[28161:2666298] AX Notification 4002
+17:43:00.452 XCTRunner[28417:2667755] Got AX notification 4002
+17:43:00.452 testmanagerd[28161:2666298] Got user testing notification with payload {
+    controllerClass = SBIconController;
+    event = ViewDidDisappear;
+}
+17:43:00.970 testmanagerd[28161:2666298] AX Notification 1011
+17:43:01.281 XCTRunner[28417:2667683] done launching and has quiesced
+17:43:01.281 XCTRunner[28417:2667683] -[FizzBuzz_with_TDDUITests testExample] finished activity <XCActivityRecord: 0x6080002a1320> 2017-08-11 16:42:52 +0000: Launch com.braaaaap.FizzBuzz-with-TDD (8.34835s)
+17:43:01.285 Xcode[9905:1187378] -[FizzBuzz_with_TDDUITests.FizzBuzz_with_TDDUITests testExample] did finish activity 11C1DD17-3DDB-4CA5-8817-F6CE63DC03C3:'Launch com.braaaaap.FizzBuzz-with-TDD'
+17:43:01.283 XCTRunner[28417:2667683] -[FizzBuzz_with_TDDUITests testExample] finished activity <XCActivityRecord: 0x6000002a2400> 2017-08-11 16:42:52 +0000: Set Up (8.35622s)
+17:43:01.287 Xcode[9905:1187378] -[FizzBuzz_with_TDDUITests.FizzBuzz_with_TDDUITests testExample] did finish activity 580B12B5-F665-4E48-BB2D-532B5DB69D58:'Set Up'
+17:43:01.284 XCTRunner[28417:2667683] -[FizzBuzz_with_TDDUITests testExample] started activity <XCActivityRecord: 0x6080000beea0> 2017-08-11 16:43:01 +0000: Tear Down
+17:43:01.287 Xcode[9905:1187378] -[FizzBuzz_with_TDDUITests.FizzBuzz_with_TDDUITests testExample] will start activity DDB6E2A1-C551-4ADA-9141-90846B1C8809:'Tear Down'
+17:43:01.285 XCTRunner[28417:2667683] -[FizzBuzz_with_TDDUITests testExample] finished activity <XCActivityRecord: 0x6080000beea0> 2017-08-11 16:43:01 +0000: Tear Down (0.000611961s)
+17:43:01.287 Xcode[9905:1187378] -[FizzBuzz_with_TDDUITests.FizzBuzz_with_TDDUITests testExample] did finish activity DDB6E2A1-C551-4ADA-9141-90846B1C8809:'Tear Down'
+17:43:01.285 XCTRunner[28417:2667755] Monitor: termination is being tracked for <XCUIApplicationProcess: 0x6000002a2b20 com.braaaaap.FizzBuzz-with-TDD (28424)>
+17:43:01.286 XCTRunner[28417:2667683] Monitor: waiting for state changes to launched application(s): <XCUIApplicationProcess: 0x6000002a2b20 com.braaaaap.FizzBuzz-with-TDD (28424)>
+17:43:01.286 XCTRunner[28417:2667683] <XCTWaiter: 0x600000009fa0> entering wait loop for 0.20s
+17:43:01.487 XCTRunner[28417:2667683] <XCTWaiter: 0x600000009fa0> done waiting
+17:43:01.488 XCTRunner[28417:2667683] <XCTWaiter: 0x600000009fa0> cleaning up Expect change to state of <XCUIApplicationProcess: 0x6000002a2b20 com.braaaaap.FizzBuzz-with-TDD (28424)>
+17:43:01.488 XCTRunner[28417:2667683] Monitor: done waiting for state changes to launched application(s)
+    t =     0.00s     Start Test at 2017-08-11 17:42:52.925
+    t =     0.00s     Set Up
+    t =     0.01s         Launch com.braaaaap.FizzBuzz-with-TDD
+    t =     5.36s             Wait for app to idle
+    t =     8.36s     Tear Down
+Test Case '-[FizzBuzz_with_TDDUITests.FizzBuzz_with_TDDUITests testExample]' passed (8.563 seconds).
+17:43:01.489 Xcode[9905:1187378] _XCT_testCaseDidFinishForTestClass:FizzBuzz_with_TDDUITests.FizzBuzz_with_TDDUITests method:testExample withStatus:passed duration:8.563111960887909
+17:43:01.488 XCTRunner[28417:2667683] -[XCTRunnerIDESession testCaseDidFinish:]
+Test Suite 'FizzBuzz_with_TDDUITests' passed at 2017-08-11 17:43:01.489.
+	 Executed 1 test, with 0 failures (0 unexpected) in 8.563 (8.564) seconds
+Test Suite 'FizzBuzz_with_TDDUITests.xctest' passed at 2017-08-11 17:43:01.489.
+	 Executed 1 test, with 0 failures (0 unexpected) in 8.563 (8.565) seconds
+17:43:01.489 XCTRunner[28417:2667683] -[XCTRunnerIDESession testSuiteDidFinish:]
+17:43:01.504 Xcode[9905:1187378] _XCT_testSuite:FizzBuzz_with_TDDUITests didFinishAt:2017-08-11 16:43:01 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:8.563111960887909 totalDuration:8.563946962356567
+17:43:01.489 XCTRunner[28417:2667683] -[XCTRunnerIDESession testSuiteDidFinish:]
+17:43:01.504 Xcode[9905:1187378] _XCT_testSuite:FizzBuzz_with_TDDUITests.xctest didFinishAt:2017-08-11 16:43:01 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:8.563111960887909 totalDuration:8.564720988273621
+17:43:01.490 XCTRunner[28417:2667683] -[XCTRunnerIDESession testSuiteDidFinish:]
+17:43:01.504 Xcode[9905:1187378] _XCT_testSuite:All tests didFinishAt:2017-08-11 16:43:01 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:8.563111960887909 totalDuration:8.565988004207611
+17:43:01.490 XCTRunner[28417:2667683] Finished running suite.
+17:43:01.504 Xcode[9905:1187378] -[XCTTestRunnerSession _XCT_didFinishExecutingTestPlan]_block_invoke
+17:43:01.490 XCTRunner[28417:2667683] -[XCTRunnerIDESession testBundleDidFinish:], Flushing connection to IDE...
+17:43:01.490 XCTRunner[28417:2667683] Calling completion.
+17:43:01.490 XCTRunner[28417:2667683] <XCTWaiter: 0x60000000a0b0> entering wait loop for 15.00s
+17:43:01.566 Xcode[9905:1187378] <IDEExecutionOperationTracker: 0x7fee85648110: Launch application com.braaaaap.FizzBuzz-with-TDD for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7fee8266f0b0: subtrackers=none>"
+)> is not finished
+17:43:01.585 Xcode[9905:1187378] <IDEExecutionOperationTracker: 0x7fee85648110: Launch application com.braaaaap.FizzBuzz-with-TDD for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7fee8266f0b0: subtrackers=none>"
+)> is not finished
+17:43:01.604 Xcode[9905:1187378] <IDEExecutionOperationTracker: 0x7fee85648110: Launch application com.braaaaap.FizzBuzz-with-TDD for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7fee8266f0b0: subtrackers=none>"
+)> is not finished
+Test Suite 'All tests' passed at 2017-08-11 17:43:01.490.
+	 Executed 1 test, with 0 failures (0 unexpected) in 8.563 (8.566) seconds
+17:43:01.688 Xcode[9905:1187378] <IDEExecutionOperationTracker: 0x7fee85648110: Launch application com.braaaaap.FizzBuzz-with-TDD for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7fee8266f0b0: subtrackers=none>"
+)> is not finished
+17:43:01.688 Xcode[9905:1187378] <IDEExecutionOperationTracker: 0x7fee85648110: Launch application com.braaaaap.FizzBuzz-with-TDD for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7fee8266f0b0: subtrackers=none>"
+)> is not finished
+17:43:01.688 Xcode[9905:1187378] <IDEExecutionOperationTracker: 0x7fee85648110: Launch application com.braaaaap.FizzBuzz-with-TDD for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7fee8266f0b0: subtrackers=none>"
+)> is not finished
+17:43:01.711 Xcode[9905:1187378] <IDEExecutionOperationTracker: 0x7fee85648110: Launch application com.braaaaap.FizzBuzz-with-TDD for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7fee8266f0b0: subtrackers=none>"
+)> is not finished
+17:43:01.732 Xcode[9905:1187378] Observed termination of tracker for token 24 for launch of com.braaaaap.FizzBuzz-with-TDD at /Users/Ross/Desktop/Swift Work/FizzBuzz_with_TDD/DerivedData/FizzBuzz_with_TDD/Build/Products/Debug-iphonesimulator/FizzBuzz_with_TDD.app
+17:43:01.734 Xcode[9905:1187378] _finishWithError:(null) didCancel: 0
